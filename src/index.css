@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,24 +6,87 @@
   --sidebar-width: 260px;
 }
 
+/* Buttons */
 .btn {
   @apply inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand-600 text-white hover:bg-brand-700 transition-colors disabled:opacity-60 disabled:pointer-events-none;
 }
 .btn-outline {
   @apply inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-300 hover:bg-gray-100 transition-colors;
 }
+
+/* Card */
 .card {
   @apply bg-white rounded-2xl shadow-soft p-4;
 }
+
+/* Inputs */
 .input {
   @apply px-3 py-2 rounded-xl border border-gray-300 w-full focus:outline-none focus:ring-2 focus:ring-brand-400;
 }
 .select {
   @apply px-3 py-2 rounded-xl border border-gray-300 w-full focus:outline-none focus:ring-2 focus:ring-brand-400 bg-white;
 }
+
+/* Badges */
 .badge {
   @apply inline-flex items-center px-2 py-1 text-xs rounded-full;
 }
 .badge.green { @apply bg-green-100 text-green-800; }
 .badge.red { @apply bg-red-100 text-red-800; }
 .badge.gray { @apply bg-gray-100 text-gray-800; }
+
+/* Entrance Animation */
+@keyframes rise {
+  0% { transform: translateY(50px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+.animate-rise {
+  animation: rise 0.6s ease-out forwards;
+}
+.animate-rise.delay-100 {
+  animation-delay: 0.1s;
+}
+.animate-rise.delay-200 {
+  animation-delay: 0.2s;
+}
+
+/* Champion Podium Styling */
+.champion-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #fff8e1, #ffecb3);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+  animation: champion-pop 0.8s ease-out, champion-bounce 2.5s infinite ease-in-out;
+}
+
+/* First place floating effect */
+.champion-box.float {
+  animation: champion-pop 0.8s ease-out, champion-float 3s infinite ease-in-out;
+}
+
+/* Gold crown icon */
+.gold-crown {
+  color: gold;
+  filter: drop-shadow(0 2px 4px rgba(255, 165, 0, 0.5));
+}
+
+/* Load-in pop */
+@keyframes champion-pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Gentle bounce for normal champions */
+@keyframes champion-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Smooth floating animation for #1 */
+@keyframes champion-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}

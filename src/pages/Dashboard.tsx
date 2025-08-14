@@ -10,22 +10,55 @@ import {
   YAxis,
   Tooltip
 } from "recharts";
-import { Users, GraduationCap, BarChart3, Trophy, Eye } from "lucide-react";
-import { getStudents, getClasses } from "@/lib/fakeApi";
-import leaderboardData from "@/data/leaderboard.json";
-import type { Student, Class } from "@/types";
+import { Users, GraduationCap, BarChart3, Trophy, Search, Filter } from "lucide-react";
+import studentsData from "../data/students.json";
+
+interface Student {
+  id: string;
+  name: string;
+  grade: string;
+  email: string;
+  phone: string;
+  attendanceRate: number;
+  status: string;
+  classId: string;
+  points: number;
+  accuracy: number;
+  lessons?: number;
+  streak?: number;
+  avatar?: string;
+}
+
+interface ClassInfo {
+  id: string;
+  name: string;
+  grade: string;
+}
 
 export default function Dashboard() {
   const [students, setStudents] = useState<Student[]>([]);
-  const [classes, setClasses] = useState<Class[]>([]);
+  const [classes, setClasses] = useState<ClassInfo[]>([]);
   const [search, setSearch] = useState("");
   const [classFilter, setClassFilter] = useState("");
   const [visibleCount, setVisibleCount] = useState(20);
 
   useEffect(() => {
-    getStudents().then(setStudents);
-    getClasses().then(setClasses);
+    setStudents(studentsData);
+    const uniqueClasses = Array.from(new Set(studentsData.map(s => s.classId)))
+      .map(classId => {
+        const studentInClass = studentsData.find(s => s.classId === classId);
+        return {
+          id: classId,
+          name: `Class ${classId.slice(1)}`,
+          grade: studentInClass?.grade || "0"
+        };
+      });
+    setClasses(uniqueClasses);
   }, []);
+
+  const topStudents = useMemo(() => {
+    return [...students].sort((a, b) => b.points - a.points).slice(0, 10);
+  }, [students]);
 
   const totals = useMemo(() => {
     const totalStudents = students.length || 0;
@@ -38,15 +71,21 @@ export default function Dashboard() {
       : 0;
 
     const perClass = classes.map((c) => ({
-      name: c.name,
+      name: `Grade ${c.grade}`,
       value: students.filter((s) => s.classId === c.id).length,
     }));
 
+    const excellentCount = students.filter(s => s.attendanceRate >= 0.9).length;
+    const goodCount = students.filter(s => s.attendanceRate >= 0.8 && s.attendanceRate < 0.9).length;
+    const averageCount = students.filter(s => s.attendanceRate >= 0.7 && s.attendanceRate < 0.8).length;
+    const needsImprovementCount = students.filter(s => s.attendanceRate < 0.7).length;
+
+    const total = students.length || 1;
     const gradeDistribution = [
-      { name: "Excellent", value: 35 },
-      { name: "Good", value: 40 },
-      { name: "Average", value: 15 },
-      { name: "Needs Improvement", value: 10 },
+      { name: "Excellent", value: Math.round((excellentCount / total) * 100), color: "#10b981" },
+      { name: "Good", value: Math.round((goodCount / total) * 100), color: "#3b82f6" },
+      { name: "Average", value: Math.round((averageCount / total) * 100), color: "#f59e0b" },
+      { name: "Needs Improvement", value: Math.round((needsImprovementCount / total) * 100), color: "#ef4444" },
     ];
 
     return {
@@ -68,192 +107,175 @@ export default function Dashboard() {
     return filteredStudents.slice(0, visibleCount);
   }, [filteredStudents, visibleCount]);
 
-  const pieColors = ["#22c55e", "#3b82f6", "#facc15", "#ef4444"];
+  const pieColors = ["#10b981", "#3b82f6", "#f59e0b", "#ef4444"];
 
   return (
-    <div className="w-full">
-      {/* Header */}
-      <div className="flex justify-between items-start mb-8">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900 mb-1">
-            Greenwood Elementary School
-          </h1>
-          <p className="text-gray-600">
-            Welcome back, School Admin! Here's your school's overview.
-          </p>
-        </div>
-        <div className="text-right text-sm text-gray-500">
-          <div>CBSE Board • Last updated: {new Date().toLocaleString()}</div>
-        </div>
-      </div>
-
-      {/* Stats */}
-      <div className="grid grid-cols-4 gap-6 mb-8">
-        <StatCard
-          icon={<Users className="w-5 h-5" />}
-          label="TOTAL STUDENTS"
-          value={totals.totalStudents}
-          change="+12% from last month"
-          color="blue"
-        />
-        <StatCard
-          icon={<GraduationCap className="w-5 h-5" />}
-          label="TOTAL CLASSES"
-          value={totals.totalClasses}
-          change="+8% from last month"
-          color="green"
-        />
-        <StatCard
-          icon={<BarChart3 className="w-5 h-5" />}
-          label="AVG. PERFORMANCE"
-          value={`${totals.avgPerformance}%`}
-          change="+5% from last month"
-          color="purple"
-        />
-        <StatCard
-          icon={<Trophy className="w-5 h-5" />}
-          label="TOP PERFORMER"
-          value={`${leaderboardData[0].points} pts`}
-          change={`${leaderboardData[0].name} - ${leaderboardData[0].class}`}
-          color="orange"
-        />
-      </div>
-
-      {/* Charts */}
-      <div className="grid grid-cols-2 gap-6 mb-8">
-        {/* Bar */}
-        <div className="bg-white rounded-xl shadow-sm p-6">
-          <h3 className="text-lg font-semibold mb-2">Class-wise Student Enrollment</h3>
-          <p className="text-gray-500 text-sm mb-6">
-            Student distribution across different grades
-          </p>
-          <div className="h-64">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={totals.perClass}>
-                <XAxis dataKey="name" tick={{ fontSize: 12 }} />
-                <YAxis tick={{ fontSize: 12 }} />
-                <Tooltip />
-                <Bar dataKey="value" fill="#3B82F6" radius={[4, 4, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
-
-        {/* Pie */}
-        <div className="bg-white rounded-xl shadow-sm p-6">
-          <h3 className="text-lg font-semibold mb-2">Performance Distribution</h3>
-          <p className="text-gray-500 text-sm mb-6">
-            Overall accuracy breakdown
-          </p>
-          <div className="h-64">
-            <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Pie
-                  data={totals.gradeDistribution}
-                  dataKey="value"
-                  cx="50%"
-                  cy="50%"
-                  outerRadius={80}
-                  label
-                >
-                  {totals.gradeDistribution.map((_, i) => (
-                    <Cell key={i} fill={pieColors[i]} />
-                  ))}
-                </Pie>
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
-      </div>
-
-      {/* Leaderboard */}
-      <div className="bg-white rounded-xl shadow-sm p-6 mb-8">
-        <h3 className="text-lg font-semibold mb-4">🏆 School Leaderboard - Top 10 Champions</h3>
-        <div className="grid grid-cols-5 gap-4">
-          {leaderboardData.slice(0, 10).map((p, i) => (
-            <div key={i} className="text-center">
-              <img
-                src={p.avatar}
-                alt={p.name}
-                className="w-16 h-16 rounded-full mx-auto mb-2"
-              />
-              <div className="font-semibold text-sm">{p.name}</div>
-              <div className="text-xs text-gray-500">{p.class}</div>
-              <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-semibold mb-1">
-                {p.points} pts
-              </div>
-              <p className="text-xs text-green-600">{p.accuracy}% Accuracy</p>
-              <p className="text-xs text-gray-500">{p.streak}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* All Students */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
-        <div className="flex justify-between mb-6">
+    <div className="min-h-screen bg-gray-50 p-4">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="flex justify-between items-start mb-6">
           <div>
-            <h3 className="text-lg font-semibold">All Students</h3>
-            <p className="text-gray-500 text-sm">
-              Complete student directory with performance details
+            <h1 className="text-2xl font-bold text-gray-900 mb-1">
+              Greenwood Elementary School
+            </h1>
+            <p className="text-sm text-gray-600">
+              Welcome back, School Admin! Here's your school's overview.
             </p>
           </div>
-          <div className="flex space-x-3">
-            <input
-              type="text"
-              placeholder="Search students..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="px-4 py-2 border border-gray-300 rounded-lg"
-            />
-            <select
-              value={classFilter}
-              onChange={(e) => setClassFilter(e.target.value)}
-              className="px-4 py-2 border border-gray-300 rounded-lg"
-            >
-              <option value="">All Classes</option>
-              {classes.map((c) => (
-                <option key={c.id} value={c.id}>
-                  {c.name}
-                </option>
-              ))}
-            </select>
+          <div className="text-right text-xs text-gray-500">
+            CBSE Board • Last updated: {new Date().toLocaleString()}
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4">
-          {visibleStudents.map((s) => (
-            <div key={s.id} className="border p-4 rounded-lg">
-              <div className="flex items-center space-x-3">
-                <img
-                  src={`https://i.pravatar.cc/100?u=${s.id}`}
-                  alt={s.name}
-                  className="w-12 h-12 rounded-full"
-                />
-                <div>
-                  <h4 className="font-semibold text-sm">{s.name}</h4>
-                  <p className="text-xs text-gray-500">Class {s.grade}</p>
-                  <p className="text-xs text-green-600 font-semibold">
-                    {Math.round(s.attendanceRate * 100)}%
-                  </p>
+        {/* Stats Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+          <StatCard icon={<Users className="w-5 h-5" />} label="TOTAL STUDENTS" value={totals.totalStudents} change="+12% from last month" color="blue" />
+          <StatCard icon={<GraduationCap className="w-5 h-5" />} label="TOTAL CLASSES" value={totals.totalClasses} change="+8% from last month" color="green" />
+          <StatCard icon={<BarChart3 className="w-5 h-5" />} label="AVG. PERFORMANCE" value={`${totals.avgPerformance}%`} change="+5% from last month" color="purple" />
+          <StatCard icon={<Trophy className="w-5 h-5" />} label="TOP PERFORMER" value={`${topStudents[0]?.points || 0} pts`} change={`${topStudents[0]?.name || 'N/A'} - Grade ${topStudents[0]?.grade || 'N/A'}`} color="orange" />
+        </div>
+
+        {/* Charts Section */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
+          <div className="bg-white rounded-lg shadow-sm border p-4">
+            <div className="mb-4">
+              <h3 className="text-lg font-semibold text-gray-900">Class-wise Student Enrollment</h3>
+              <p className="text-xs text-gray-500">Student distribution across different grades</p>
+            </div>
+            <div className="h-64">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={totals.perClass}>
+                  <XAxis dataKey="name" tick={{ fontSize: 10 }} />
+                  <YAxis tick={{ fontSize: 10 }} />
+                  <Tooltip />
+                  <Bar dataKey="value" fill="#3b82f6" radius={[4, 4, 0, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-sm border p-4">
+            <div className="mb-4">
+              <h3 className="text-lg font-semibold text-gray-900">Performance Distribution</h3>
+              <p className="text-xs text-gray-500">Overall student performance breakdown</p>
+            </div>
+            <div className="h-64">
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie
+                    data={totals.gradeDistribution}
+                    dataKey="value"
+                    cx="50%"
+                    cy="50%"
+                    outerRadius={80}
+                    label={({ name, value }) => `${name}: ${value}%`}
+                    labelLine={false}
+                  >
+                    {totals.gradeDistribution.map((entry, index) => (
+                      <Cell key={index} fill={pieColors[index]} />
+                    ))}
+                  </Pie>
+                  <Tooltip />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+        </div>
+
+        {/* Leaderboard */}
+        <div className="bg-white rounded-lg shadow-sm border p-4 mb-6">
+          <div className="mb-4">
+            <h3 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
+              <Trophy className="w-4 h-4 text-yellow-500" />
+              School Leaderboard - Top 10 Champions
+            </h3>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+            {topStudents.map((student, index) => (
+              <div key={student.id} className="text-center bg-gray-50 rounded-lg p-3">
+                <div className="relative mb-2">
+                  <img src={student.avatar || `https://i.pravatar.cc/100?u=${student.id}`} alt={student.name} className="w-14 h-14 rounded-full mx-auto border-2 border-white shadow" />
+                  {index < 3 && (
+                    <div className={`absolute -top-1 -right-1 w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold text-white ${index === 0 ? 'bg-yellow-500' : index === 1 ? 'bg-gray-400' : 'bg-orange-500'
+                      }`}>
+                      {index + 1}
+                    </div>
+                  )}
                 </div>
-                <Eye className="w-4 h-4 text-gray-400 ml-auto" />
+                <div className="font-semibold text-xs text-gray-900">{student.name}</div>
+                <div className="text-xs text-gray-500">Grade {student.grade}</div>
+                <div className="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full text-xs font-semibold my-1">
+                  {student.points} pts
+                </div>
+                <div className="text-xs text-green-600">{student.accuracy}% Accuracy</div>
+                <div className="text-xs text-gray-500">{Math.round(student.attendanceRate * 100)}% Attendance</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* All Students */}
+        <div className="bg-white rounded-lg shadow-sm border p-4">
+          <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-4 gap-3">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">All Students</h3>
+              <p className="text-xs text-gray-500">Complete student directory with performance details</p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-2">
+              <div className="relative">
+                <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  className="pl-9 pr-3 py-1.5 border border-gray-300 rounded focus:ring-1 focus:ring-blue-500 text-sm"
+                />
+              </div>
+              <div className="relative">
+                <Filter className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+                <select
+                  value={classFilter}
+                  onChange={(e) => setClassFilter(e.target.value)}
+                  className="pl-9 pr-3 py-1.5 border border-gray-300 rounded text-sm"
+                >
+                  <option value="">All Classes</option>
+                  {classes.map((c) => (
+                    <option key={c.id} value={c.id}>{c.name}</option>
+                  ))}
+                </select>
               </div>
             </div>
-          ))}
-        </div>
-
-        {visibleCount < filteredStudents.length && (
-          <div className="text-center mt-6">
-            <button
-              onClick={() => setVisibleCount((prev) => prev + 20)}
-              className="bg-blue-500 text-white px-6 py-2 rounded-lg"
-            >
-              Load More Students ({filteredStudents.length - visibleCount} remaining)
-            </button>
           </div>
-        )}
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+            {visibleStudents.map((student) => (
+              <div key={student.id} className="border border-gray-200 rounded-lg p-3 bg-gray-50">
+                <div className="flex items-center gap-2">
+                  <img src={student.avatar || `https://i.pravatar.cc/100?u=${student.id}`} alt={student.name} className="w-10 h-10 rounded-full border shadow-sm" />
+                  <div className="flex-1 min-w-0">
+                    <h4 className="font-semibold text-xs text-gray-900 truncate">{student.name}</h4>
+                    <p className="text-xs text-gray-500">Grade {student.grade}</p>
+                    <div className="flex items-center gap-1">
+                      <span className="text-xs bg-green-100 text-green-800 px-1.5 py-0.5 rounded">{Math.round(student.attendanceRate * 100)}%</span>
+                      {student.points && (
+                        <span className="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded">{student.points} pts</span>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {visibleCount < filteredStudents.length && (
+            <div className="text-center mt-4">
+              <button onClick={() => setVisibleCount((prev) => prev + 20)} className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm">
+                Load More ({filteredStudents.length - visibleCount} remaining)
+              </button>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -268,19 +290,20 @@ type StatCardProps = {
 };
 
 function StatCard({ icon, label, value, change, color }: StatCardProps) {
-  const colorClasses: Record<StatCardProps["color"], string> = {
-    blue: "bg-blue-50 text-blue-600",
-    green: "bg-green-50 text-green-600",
-    purple: "bg-purple-50 text-purple-600",
-    orange: "bg-orange-50 text-orange-600",
+  const colorClasses = {
+    blue: "bg-blue-50 text-blue-600 border-blue-200",
+    green: "bg-green-50 text-green-600 border-green-200",
+    purple: "bg-purple-50 text-purple-600 border-purple-200",
+    orange: "bg-orange-50 text-orange-600 border-orange-200",
   };
-
   return (
-    <div className="bg-white rounded-xl shadow-sm p-6">
-      <div className={`p-2 rounded-lg ${colorClasses[color]}`}>{icon}</div>
-      <div className="text-2xl font-bold text-gray-900 mt-3">{value}</div>
-      <div className="text-xs text-gray-500 font-medium">{label}</div>
-      <div className="text-xs text-green-600 mt-1">{change}</div>
+    <div className="bg-white rounded-lg shadow-sm border p-4">
+      <div className={`inline-flex p-2 rounded-lg border ${colorClasses[color]} mb-2`}>
+        {icon}
+      </div>
+      <div className="text-xl font-bold text-gray-900">{value}</div>
+      <div className="text-xs text-gray-500">{label}</div>
+      <div className="text-xs text-green-600">{change}</div>
     </div>
   );
 }
