@@ -1,0 +1,1528 @@
+[
+  {
+    "id": "c12482ca",
+    "date": "2025-07-14",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "5797cd98",
+    "date": "2025-07-14",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "7abda0f5",
+    "date": "2025-07-14",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "cb0257ca",
+    "date": "2025-07-14",
+    "classId": "C8A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "5a5deffe",
+    "date": "2025-07-14",
+    "classId": "C8A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "08efb9a1",
+    "date": "2025-07-14",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "56aa7a55",
+    "date": "2025-07-14",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "009c8303",
+    "date": "2025-07-14",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "0366365d",
+    "date": "2025-07-14",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "67fc0d5e",
+    "date": "2025-07-15",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": false
+  },
+  {
+    "id": "cdbae95a",
+    "date": "2025-07-15",
+    "classId": "C7C",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "0efcd0c9",
+    "date": "2025-07-15",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "5f8280c0",
+    "date": "2025-07-15",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "d34b98ef",
+    "date": "2025-07-15",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "7659c562",
+    "date": "2025-07-15",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "16b5ffc3",
+    "date": "2025-07-15",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "710acc17",
+    "date": "2025-07-15",
+    "classId": "C10A",
+    "studentId": "S004",
+    "present": false
+  },
+  {
+    "id": "94b7d471",
+    "date": "2025-07-16",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "99685c05",
+    "date": "2025-07-16",
+    "classId": "C7C",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "760bfe88",
+    "date": "2025-07-16",
+    "classId": "C8A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "1cb85124",
+    "date": "2025-07-16",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "c9684bb4",
+    "date": "2025-07-16",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": false
+  },
+  {
+    "id": "2374a43e",
+    "date": "2025-07-16",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "daeef3b9",
+    "date": "2025-07-16",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "6fbc0b00",
+    "date": "2025-07-16",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "253a49c7",
+    "date": "2025-07-17",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "650f327e",
+    "date": "2025-07-17",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": false
+  },
+  {
+    "id": "2a33bcab",
+    "date": "2025-07-17",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "12a164ad",
+    "date": "2025-07-17",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "4469daea",
+    "date": "2025-07-17",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "be6f099e",
+    "date": "2025-07-17",
+    "classId": "C8A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "9e4905be",
+    "date": "2025-07-17",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "8910e653",
+    "date": "2025-07-17",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "9472ff67",
+    "date": "2025-07-18",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "cdfbad7a",
+    "date": "2025-07-18",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": false
+  },
+  {
+    "id": "fc049e67",
+    "date": "2025-07-18",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "5e6dfbcf",
+    "date": "2025-07-18",
+    "classId": "C8A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "7088808a",
+    "date": "2025-07-18",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "dd334b1f",
+    "date": "2025-07-18",
+    "classId": "C8A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "0bcc0ba8",
+    "date": "2025-07-18",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "28ac679a",
+    "date": "2025-07-18",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "b8f0699d",
+    "date": "2025-07-18",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "d9c0755d",
+    "date": "2025-07-18",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "e72bd752",
+    "date": "2025-07-21",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "986cec31",
+    "date": "2025-07-21",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "aa6a3d46",
+    "date": "2025-07-21",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "91e965d7",
+    "date": "2025-07-21",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "a4a59a45",
+    "date": "2025-07-21",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "e6a23814",
+    "date": "2025-07-21",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": false
+  },
+  {
+    "id": "3578d08f",
+    "date": "2025-07-21",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": false
+  },
+  {
+    "id": "c9192e3f",
+    "date": "2025-07-22",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "849d0b97",
+    "date": "2025-07-22",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "c44112ad",
+    "date": "2025-07-22",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": false
+  },
+  {
+    "id": "ce5f9e2a",
+    "date": "2025-07-22",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "2157b799",
+    "date": "2025-07-22",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "dc1296da",
+    "date": "2025-07-22",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "041ae818",
+    "date": "2025-07-22",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "0fc7bbc6",
+    "date": "2025-07-22",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "56fac030",
+    "date": "2025-07-23",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "f89c0b89",
+    "date": "2025-07-23",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "9eca00cb",
+    "date": "2025-07-23",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "57ae2f3e",
+    "date": "2025-07-23",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "73d9679a",
+    "date": "2025-07-23",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "34dc0d3f",
+    "date": "2025-07-23",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "417fc9af",
+    "date": "2025-07-23",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "30ba4e29",
+    "date": "2025-07-23",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "5f5ba5ea",
+    "date": "2025-07-23",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "5df97282",
+    "date": "2025-07-24",
+    "classId": "C7C",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "b3e7b058",
+    "date": "2025-07-24",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "b0dec43e",
+    "date": "2025-07-24",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "5f256cb2",
+    "date": "2025-07-24",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "6d06035b",
+    "date": "2025-07-24",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "61631f5b",
+    "date": "2025-07-24",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "32306838",
+    "date": "2025-07-24",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "01e236df",
+    "date": "2025-07-24",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "ab0c57e5",
+    "date": "2025-07-24",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "aa453f26",
+    "date": "2025-07-24",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "c06a683e",
+    "date": "2025-07-24",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "c6b27151",
+    "date": "2025-07-24",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "318bc96b",
+    "date": "2025-07-25",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "60ea8a21",
+    "date": "2025-07-25",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": false
+  },
+  {
+    "id": "c8cee40f",
+    "date": "2025-07-25",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "087be7ad",
+    "date": "2025-07-25",
+    "classId": "C8A",
+    "studentId": "S002",
+    "present": false
+  },
+  {
+    "id": "7d12109b",
+    "date": "2025-07-25",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "12b9431c",
+    "date": "2025-07-25",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "65332600",
+    "date": "2025-07-25",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "895d56cf",
+    "date": "2025-07-25",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "750b8185",
+    "date": "2025-07-25",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "3337a59b",
+    "date": "2025-07-25",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "486839ef",
+    "date": "2025-07-25",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "fb1d21e0",
+    "date": "2025-07-25",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "18851a0d",
+    "date": "2025-07-28",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "05134ec6",
+    "date": "2025-07-28",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "f5244e38",
+    "date": "2025-07-28",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "2805f267",
+    "date": "2025-07-28",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "a026e215",
+    "date": "2025-07-28",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "d2b0aaad",
+    "date": "2025-07-28",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "5e91ac2a",
+    "date": "2025-07-28",
+    "classId": "C10A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "814eed69",
+    "date": "2025-07-28",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "5052d504",
+    "date": "2025-07-29",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "da0686b5",
+    "date": "2025-07-29",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": false
+  },
+  {
+    "id": "c011fc82",
+    "date": "2025-07-29",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "a785dbf4",
+    "date": "2025-07-29",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "caf65c4b",
+    "date": "2025-07-29",
+    "classId": "C8A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "6a45a221",
+    "date": "2025-07-29",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "3060693a",
+    "date": "2025-07-29",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "7e1ae8db",
+    "date": "2025-07-29",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "f1266a63",
+    "date": "2025-07-29",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "23d8d924",
+    "date": "2025-07-29",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "5d8764d4",
+    "date": "2025-07-29",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "6f27e3c4",
+    "date": "2025-07-30",
+    "classId": "C7C",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "0f5ffed4",
+    "date": "2025-07-30",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "84cccdf5",
+    "date": "2025-07-30",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "7e6d45bc",
+    "date": "2025-07-30",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "46ce3a91",
+    "date": "2025-07-30",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "79920df7",
+    "date": "2025-07-30",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "4e114b04",
+    "date": "2025-07-30",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "38a21d3d",
+    "date": "2025-07-30",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "e2c153a5",
+    "date": "2025-07-31",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "45277863",
+    "date": "2025-07-31",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "0bc0ed4f",
+    "date": "2025-07-31",
+    "classId": "C7C",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "ddf2b8e1",
+    "date": "2025-07-31",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "04f127a8",
+    "date": "2025-07-31",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "c0de703a",
+    "date": "2025-07-31",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "2f31bacc",
+    "date": "2025-07-31",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "db77e19c",
+    "date": "2025-07-31",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "ff3c57db",
+    "date": "2025-07-31",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "49fc3e15",
+    "date": "2025-07-31",
+    "classId": "C10A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "3931c771",
+    "date": "2025-08-01",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "998b9e0d",
+    "date": "2025-08-01",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "2cd01abd",
+    "date": "2025-08-01",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": false
+  },
+  {
+    "id": "1f57c907",
+    "date": "2025-08-01",
+    "classId": "C7C",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "a6f3736f",
+    "date": "2025-08-01",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "a78ba99d",
+    "date": "2025-08-01",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "f9302a77",
+    "date": "2025-08-01",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "14bde94c",
+    "date": "2025-08-01",
+    "classId": "C10A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "0738e3fb",
+    "date": "2025-08-01",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "59b43e2f",
+    "date": "2025-08-04",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "23d3e930",
+    "date": "2025-08-04",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "bc85225c",
+    "date": "2025-08-04",
+    "classId": "C7C",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "2392fea6",
+    "date": "2025-08-04",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "9359e449",
+    "date": "2025-08-04",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "c047704f",
+    "date": "2025-08-04",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "c8b57fc8",
+    "date": "2025-08-04",
+    "classId": "C8A",
+    "studentId": "S005",
+    "present": false
+  },
+  {
+    "id": "8748c89c",
+    "date": "2025-08-04",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "ec9dcaac",
+    "date": "2025-08-04",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "75f9cfb0",
+    "date": "2025-08-04",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "5501d919",
+    "date": "2025-08-04",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "34f39890",
+    "date": "2025-08-04",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "1154ab82",
+    "date": "2025-08-04",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": false
+  },
+  {
+    "id": "fa849b98",
+    "date": "2025-08-04",
+    "classId": "C10A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "feb13027",
+    "date": "2025-08-05",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "d5e02184",
+    "date": "2025-08-05",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": false
+  },
+  {
+    "id": "63214f86",
+    "date": "2025-08-05",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "5ac09721",
+    "date": "2025-08-05",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "0993a49e",
+    "date": "2025-08-05",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": false
+  },
+  {
+    "id": "002a6e48",
+    "date": "2025-08-05",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "f7d7f6b9",
+    "date": "2025-08-05",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "37d3fe18",
+    "date": "2025-08-05",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "80e406d8",
+    "date": "2025-08-05",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "4b44cb0a",
+    "date": "2025-08-06",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "05a5bc6e",
+    "date": "2025-08-06",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "41f1244a",
+    "date": "2025-08-06",
+    "classId": "C7C",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "f25e689e",
+    "date": "2025-08-06",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "51a1316d",
+    "date": "2025-08-06",
+    "classId": "C8A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "f8877217",
+    "date": "2025-08-06",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "f73bcca8",
+    "date": "2025-08-06",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "27b9c591",
+    "date": "2025-08-06",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "82fdb914",
+    "date": "2025-08-06",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "29504e21",
+    "date": "2025-08-06",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "aa409f34",
+    "date": "2025-08-06",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": false
+  },
+  {
+    "id": "8785c87d",
+    "date": "2025-08-06",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "0757933e",
+    "date": "2025-08-06",
+    "classId": "C10A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "078ebad5",
+    "date": "2025-08-07",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "909b7fb2",
+    "date": "2025-08-07",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "e1389e77",
+    "date": "2025-08-07",
+    "classId": "C8A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "952fc33e",
+    "date": "2025-08-07",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "ed9851a8",
+    "date": "2025-08-07",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "c29415c0",
+    "date": "2025-08-07",
+    "classId": "C9B",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "aee1eab6",
+    "date": "2025-08-07",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "a9fb4d86",
+    "date": "2025-08-07",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "4071cacd",
+    "date": "2025-08-07",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": false
+  },
+  {
+    "id": "72def615",
+    "date": "2025-08-07",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "37dcc10b",
+    "date": "2025-08-07",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": false
+  },
+  {
+    "id": "014b997c",
+    "date": "2025-08-07",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "eada69da",
+    "date": "2025-08-08",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "0a43cd31",
+    "date": "2025-08-08",
+    "classId": "C7C",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "0d765ee8",
+    "date": "2025-08-08",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "dc809590",
+    "date": "2025-08-08",
+    "classId": "C8A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "a3cbb28e",
+    "date": "2025-08-08",
+    "classId": "C8A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "8f8b5199",
+    "date": "2025-08-08",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "fed972f1",
+    "date": "2025-08-08",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "e226a206",
+    "date": "2025-08-08",
+    "classId": "C8A",
+    "studentId": "S005",
+    "present": false
+  },
+  {
+    "id": "11ecb51b",
+    "date": "2025-08-08",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "06ecd55c",
+    "date": "2025-08-08",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "96f926d6",
+    "date": "2025-08-08",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "e02d3ae6",
+    "date": "2025-08-08",
+    "classId": "C10A",
+    "studentId": "S003",
+    "present": false
+  },
+  {
+    "id": "623c6477",
+    "date": "2025-08-08",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "dd8ba450",
+    "date": "2025-08-11",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": false
+  },
+  {
+    "id": "90854323",
+    "date": "2025-08-11",
+    "classId": "C7C",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "f93eb05e",
+    "date": "2025-08-11",
+    "classId": "C8A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "c7138a6f",
+    "date": "2025-08-11",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": false
+  },
+  {
+    "id": "7a2f9620",
+    "date": "2025-08-11",
+    "classId": "C9B",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "312012ab",
+    "date": "2025-08-11",
+    "classId": "C9B",
+    "studentId": "S003",
+    "present": true
+  },
+  {
+    "id": "ec977124",
+    "date": "2025-08-11",
+    "classId": "C9B",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "7948fd5f",
+    "date": "2025-08-11",
+    "classId": "C10A",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "f11f4374",
+    "date": "2025-08-11",
+    "classId": "C10A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "f9746750",
+    "date": "2025-08-11",
+    "classId": "C10A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "06e72db1",
+    "date": "2025-08-12",
+    "classId": "C7C",
+    "studentId": "S001",
+    "present": true
+  },
+  {
+    "id": "3ee4cb67",
+    "date": "2025-08-12",
+    "classId": "C7C",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "51ee7a50",
+    "date": "2025-08-12",
+    "classId": "C7C",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "d1dc0e54",
+    "date": "2025-08-12",
+    "classId": "C8A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "ecb54ab5",
+    "date": "2025-08-12",
+    "classId": "C8A",
+    "studentId": "S003",
+    "present": false
+  },
+  {
+    "id": "07dbfcaa",
+    "date": "2025-08-12",
+    "classId": "C8A",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "1367bb43",
+    "date": "2025-08-12",
+    "classId": "C8A",
+    "studentId": "S005",
+    "present": true
+  },
+  {
+    "id": "cc315627",
+    "date": "2025-08-12",
+    "classId": "C9B",
+    "studentId": "S004",
+    "present": true
+  },
+  {
+    "id": "3ec1add2",
+    "date": "2025-08-12",
+    "classId": "C10A",
+    "studentId": "S002",
+    "present": true
+  },
+  {
+    "id": "4133b004",
+    "date": "2025-08-12",
+    "classId": "C10A",
+    "studentId": "S004",
+    "present": true
+  }
+]

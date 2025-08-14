@@ -1,0 +1,30 @@
+[
+  {
+    "id": "C7C",
+    "name": "7C",
+    "grade": "7",
+    "teacher": "Mr. D'Souza",
+    "schedule": "Mon-Wed-Fri 10:00"
+  },
+  {
+    "id": "C8A",
+    "name": "8A",
+    "grade": "8",
+    "teacher": "Mrs. Kapoor",
+    "schedule": "Mon-Thu 11:00"
+  },
+  {
+    "id": "C9B",
+    "name": "9B",
+    "grade": "9",
+    "teacher": "Ms. Rao",
+    "schedule": "Tue-Fri 12:00"
+  },
+  {
+    "id": "C10A",
+    "name": "10A",
+    "grade": "10",
+    "teacher": "Mr. Singh",
+    "schedule": "Mon-Wed 13:00"
+  }
+]

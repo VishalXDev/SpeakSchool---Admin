@@ -1,0 +1,12 @@
+[
+  { "name": "Aarav Malhotra", "class": "Class 8", "points": 830, "accuracy": 96, "streak": 15, "avatar": "https://i.pravatar.cc/80?img=1" },
+  { "name": "Vivaan Kapoor", "class": "Class 7", "points": 295, "accuracy": 94, "streak": 12, "avatar": "https://i.pravatar.cc/80?img=2" },
+  { "name": "Anaya Oberoi", "class": "Class 6", "points": 190, "accuracy": 93, "streak": 10, "avatar": "https://i.pravatar.cc/80?img=3" },
+  { "name": "Rishabh Khanna", "class": "Class 5", "points": 165, "accuracy": 92, "streak": 9, "avatar": "https://i.pravatar.cc/80?img=4" },
+  { "name": "Kiara Mehra", "class": "Class 4", "points": 145, "accuracy": 90, "streak": 8, "avatar": "https://i.pravatar.cc/80?img=5" },
+  { "name": "Aryan Singhania", "class": "Class 3", "points": 140, "accuracy": 89, "streak": 8, "avatar": "https://i.pravatar.cc/80?img=6" },
+  { "name": "Myra Chauhan", "class": "Class 2", "points": 135, "accuracy": 88, "streak": 7, "avatar": "https://i.pravatar.cc/80?img=7" },
+  { "name": "Devansh Bedi", "class": "Class 1", "points": 130, "accuracy": 87, "streak": 6, "avatar": "https://i.pravatar.cc/80?img=8" },
+  { "name": "Samaira Gill", "class": "Class 8", "points": 125, "accuracy": 86, "streak": 5, "avatar": "https://i.pravatar.cc/80?img=9" },
+  { "name": "Kabir Wadhwa", "class": "Class 7", "points": 120, "accuracy": 85, "streak": 4, "avatar": "https://i.pravatar.cc/80?img=10" }
+]

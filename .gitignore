@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+
+# Build output
+/dist
+/build
+
+# Production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Coverage
+/coverage
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: ignore local json data files if they shouldn't be committed
+/data/students.json
+/data/classes.json
+/data/attendance.json
+
+# Cache
+/.parcel-cache
+/.next

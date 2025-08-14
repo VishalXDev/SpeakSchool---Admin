@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "S001",
+    "name": "Aarav Sharma",
+    "grade": "8",
+    "email": "aarav@school.edu",
+    "phone": "9876543210",
+    "attendanceRate": 0.94,
+    "status": "active",
+    "classId": "C8A"
+  },
+  {
+    "id": "S002",
+    "name": "Isha Patel",
+    "grade": "8",
+    "email": "isha@school.edu",
+    "phone": "9876543211",
+    "attendanceRate": 0.89,
+    "status": "active",
+    "classId": "C8A"
+  },
+  {
+    "id": "S003",
+    "name": "Rohan Gupta",
+    "grade": "9",
+    "email": "rohan@school.edu",
+    "phone": "9876543212",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C9B"
+  },
+  {
+    "id": "S004",
+    "name": "Meera Khan",
+    "grade": "7",
+    "email": "meera@school.edu",
+    "phone": "9876543213",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C7C"
+  },
+  {
+    "id": "S005",
+    "name": "Advait Iyer",
+    "grade": "10",
+    "email": "advait@school.edu",
+    "phone": "9876543214",
+    "attendanceRate": 0.91,
+    "status": "inactive",
+    "classId": "C10A"
+  },
+  {
+    "id": "S006",
+    "name": "Anika Sharma",
+    "grade": "2",
+    "email": "anika.sharma6@school.edu",
+    "phone": "9812036835",
+    "attendanceRate": 0.92,
+    "status": "inactive",
+    "classId": "C2C"
+  },
+  {
+    "id": "S007",
+    "name": "Riya Nair",
+    "grade": "9",
+    "email": "riya.nair7@school.edu",
+    "phone": "9859698649",
+    "attendanceRate": 0.94,
+    "status": "inactive",
+    "classId": "C9C"
+  },
+  {
+    "id": "S008",
+    "name": "Anika Khan",
+    "grade": "7",
+    "email": "anika.khan8@school.edu",
+    "phone": "9896099883",
+    "attendanceRate": 0.91,
+    "status": "active",
+    "classId": "C7A"
+  },
+  {
+    "id": "S009",
+    "name": "Vihaan Gupta",
+    "grade": "9",
+    "email": "vihaan.gupta9@school.edu",
+    "phone": "9880575906",
+    "attendanceRate": 0.82,
+    "status": "inactive",
+    "classId": "C9A"
+  },
+  {
+    "id": "S010",
+    "name": "Sara Chopra",
+    "grade": "10",
+    "email": "sara.chopra10@school.edu",
+    "phone": "9820794350",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C10B"
+  },
+  {
+    "id": "S011",
+    "name": "Diya Bhatia",
+    "grade": "8",
+    "email": "diya.bhatia11@school.edu",
+    "phone": "9887528478",
+    "attendanceRate": 0.87,
+    "status": "inactive",
+    "classId": "C8A"
+  },
+  {
+    "id": "S012",
+    "name": "Krishna Sinha",
+    "grade": "10",
+    "email": "krishna.sinha12@school.edu",
+    "phone": "9891825799",
+    "attendanceRate": 0.95,
+    "status": "inactive",
+    "classId": "C10A"
+  },
+  {
+    "id": "S013",
+    "name": "Navya Kapoor",
+    "grade": "4",
+    "email": "navya.kapoor13@school.edu",
+    "phone": "9829446140",
+    "attendanceRate": 0.94,
+    "status": "active",
+    "classId": "C4C"
+  },
+  {
+    "id": "S014",
+    "name": "Riya Desai",
+    "grade": "9",
+    "email": "riya.desai14@school.edu",
+    "phone": "9841606394",
+    "attendanceRate": 0.89,
+    "status": "active",
+    "classId": "C9B"
+  },
+  {
+    "id": "S015",
+    "name": "Riya Nair",
+    "grade": "8",
+    "email": "riya.nair15@school.edu",
+    "phone": "9870152084",
+    "attendanceRate": 0.97,
+    "status": "active",
+    "classId": "C8B"
+  },
+  {
+    "id": "S016",
+    "name": "Krishna Reddy",
+    "grade": "5",
+    "email": "krishna.reddy16@school.edu",
+    "phone": "9896934926",
+    "attendanceRate": 0.94,
+    "status": "active",
+    "classId": "C5C"
+  },
+  {
+    "id": "S017",
+    "name": "Riya Desai",
+    "grade": "11",
+    "email": "riya.desai17@school.edu",
+    "phone": "9850965555",
+    "attendanceRate": 0.89,
+    "status": "active",
+    "classId": "C11B"
+  },
+  {
+    "id": "S018",
+    "name": "Diya Gill",
+    "grade": "8",
+    "email": "diya.gill18@school.edu",
+    "phone": "9832114747",
+    "attendanceRate": 0.86,
+    "status": "active",
+    "classId": "C8C"
+  },
+  {
+    "id": "S019",
+    "name": "Ishaan Reddy",
+    "grade": "5",
+    "email": "ishaan.reddy19@school.edu",
+    "phone": "9895087149",
+    "attendanceRate": 0.97,
+    "status": "active",
+    "classId": "C5A"
+  },
+  {
+    "id": "S020",
+    "name": "Aadhya Iyer",
+    "grade": "2",
+    "email": "aadhya.iyer20@school.edu",
+    "phone": "9881783931",
+    "attendanceRate": 0.97,
+    "status": "active",
+    "classId": "C2A"
+  },
+  {
+    "id": "S021",
+    "name": "Sara Gill",
+    "grade": "4",
+    "email": "sara.gill21@school.edu",
+    "phone": "9893730751",
+    "attendanceRate": 0.98,
+    "status": "inactive",
+    "classId": "C4B"
+  },
+  {
+    "id": "S022",
+    "name": "Ananya Sinha",
+    "grade": "9",
+    "email": "ananya.sinha22@school.edu",
+    "phone": "9859619683",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C9A"
+  },
+  {
+    "id": "S023",
+    "name": "Anika Iyer",
+    "grade": "1",
+    "email": "anika.iyer23@school.edu",
+    "phone": "9875727950",
+    "attendanceRate": 0.94,
+    "status": "inactive",
+    "classId": "C1B"
+  },
+  {
+    "id": "S024",
+    "name": "Sara Gill",
+    "grade": "6",
+    "email": "sara.gill24@school.edu",
+    "phone": "9850059183",
+    "attendanceRate": 0.88,
+    "status": "active",
+    "classId": "C6C"
+  },
+  {
+    "id": "S025",
+    "name": "Reyansh Gupta",
+    "grade": "4",
+    "email": "reyansh.gupta25@school.edu",
+    "phone": "9845581201",
+    "attendanceRate": 0.91,
+    "status": "inactive",
+    "classId": "C4C"
+  },
+  {
+    "id": "S026",
+    "name": "Sara Gill",
+    "grade": "7",
+    "email": "sara.gill26@school.edu",
+    "phone": "9861973776",
+    "attendanceRate": 0.94,
+    "status": "inactive",
+    "classId": "C7A"
+  },
+  {
+    "id": "S027",
+    "name": "Aditya Iyer",
+    "grade": "10",
+    "email": "aditya.iyer27@school.edu",
+    "phone": "9856013037",
+    "attendanceRate": 0.87,
+    "status": "active",
+    "classId": "C10C"
+  },
+  {
+    "id": "S028",
+    "name": "Pari Reddy",
+    "grade": "2",
+    "email": "pari.reddy28@school.edu",
+    "phone": "9810886309",
+    "attendanceRate": 0.8,
+    "status": "inactive",
+    "classId": "C2C"
+  },
+  {
+    "id": "S029",
+    "name": "Krishna Malhotra",
+    "grade": "5",
+    "email": "krishna.malhotra29@school.edu",
+    "phone": "9892204438",
+    "attendanceRate": 0.89,
+    "status": "active",
+    "classId": "C5B"
+  },
+  {
+    "id": "S030",
+    "name": "Aditya Nair",
+    "grade": "11",
+    "email": "aditya.nair30@school.edu",
+    "phone": "9890286054",
+    "attendanceRate": 0.95,
+    "status": "inactive",
+    "classId": "C11B"
+  },
+  {
+    "id": "S031",
+    "name": "Aarav Iyer",
+    "grade": "3",
+    "email": "aarav.iyer31@school.edu",
+    "phone": "9876018470",
+    "attendanceRate": 0.83,
+    "status": "active",
+    "classId": "C3C"
+  },
+  {
+    "id": "S032",
+    "name": "Aarav Sinha",
+    "grade": "1",
+    "email": "aarav.sinha32@school.edu",
+    "phone": "9812480029",
+    "attendanceRate": 0.98,
+    "status": "active",
+    "classId": "C1B"
+  },
+  {
+    "id": "S033",
+    "name": "Aadhya Agarwal",
+    "grade": "8",
+    "email": "aadhya.agarwal33@school.edu",
+    "phone": "9834068922",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C8C"
+  },
+  {
+    "id": "S034",
+    "name": "Sai Singhania",
+    "grade": "7",
+    "email": "sai.singhania34@school.edu",
+    "phone": "9870431212",
+    "attendanceRate": 0.94,
+    "status": "inactive",
+    "classId": "C7C"
+  },
+  {
+    "id": "S035",
+    "name": "Diya Chauhan",
+    "grade": "12",
+    "email": "diya.chauhan35@school.edu",
+    "phone": "9858133235",
+    "attendanceRate": 0.8,
+    "status": "active",
+    "classId": "C12B"
+  },
+  {
+    "id": "S036",
+    "name": "Sai Singhania",
+    "grade": "1",
+    "email": "sai.singhania36@school.edu",
+    "phone": "9873109612",
+    "attendanceRate": 0.95,
+    "status": "inactive",
+    "classId": "C1B"
+  },
+  {
+    "id": "S037",
+    "name": "Ananya Bose",
+    "grade": "8",
+    "email": "ananya.bose37@school.edu",
+    "phone": "9830970385",
+    "attendanceRate": 0.9,
+    "status": "inactive",
+    "classId": "C8A"
+  },
+  {
+    "id": "S038",
+    "name": "Sara Chopra",
+    "grade": "2",
+    "email": "sara.chopra38@school.edu",
+    "phone": "9840647464",
+    "attendanceRate": 0.84,
+    "status": "inactive",
+    "classId": "C2C"
+  },
+  {
+    "id": "S039",
+    "name": "Kabir Bose",
+    "grade": "4",
+    "email": "kabir.bose39@school.edu",
+    "phone": "9846354449",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C4C"
+  },
+  {
+    "id": "S040",
+    "name": "Ira Verma",
+    "grade": "8",
+    "email": "ira.verma40@school.edu",
+    "phone": "9832444395",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C8C"
+  },
+  {
+    "id": "S041",
+    "name": "Vivaan Chauhan",
+    "grade": "9",
+    "email": "vivaan.chauhan41@school.edu",
+    "phone": "9891781673",
+    "attendanceRate": 0.88,
+    "status": "active",
+    "classId": "C9C"
+  },
+  {
+    "id": "S042",
+    "name": "Vihaan Kapoor",
+    "grade": "9",
+    "email": "vihaan.kapoor42@school.edu",
+    "phone": "9837002445",
+    "attendanceRate": 0.93,
+    "status": "active",
+    "classId": "C9A"
+  },
+  {
+    "id": "S043",
+    "name": "Sara Nair",
+    "grade": "5",
+    "email": "sara.nair43@school.edu",
+    "phone": "9856367793",
+    "attendanceRate": 0.85,
+    "status": "inactive",
+    "classId": "C5C"
+  },
+  {
+    "id": "S044",
+    "name": "Vihaan Singhania",
+    "grade": "2",
+    "email": "vihaan.singhania44@school.edu",
+    "phone": "9832556273",
+    "attendanceRate": 0.93,
+    "status": "inactive",
+    "classId": "C2C"
+  },
+  {
+    "id": "S045",
+    "name": "Vivaan Bose",
+    "grade": "2",
+    "email": "vivaan.bose45@school.edu",
+    "phone": "9878172919",
+    "attendanceRate": 0.94,
+    "status": "inactive",
+    "classId": "C2B"
+  },
+  {
+    "id": "S046",
+    "name": "Ananya Gupta",
+    "grade": "3",
+    "email": "ananya.gupta46@school.edu",
+    "phone": "9870041041",
+    "attendanceRate": 0.92,
+    "status": "active",
+    "classId": "C3C"
+  },
+  {
+    "id": "S047",
+    "name": "Navya Desai",
+    "grade": "5",
+    "email": "navya.desai47@school.edu",
+    "phone": "9879972044",
+    "attendanceRate": 0.94,
+    "status": "active",
+    "classId": "C5A"
+  },
+  {
+    "id": "S048",
+    "name": "Riya Iyer",
+    "grade": "11",
+    "email": "riya.iyer48@school.edu",
+    "phone": "9849920656",
+    "attendanceRate": 0.9,
+    "status": "inactive",
+    "classId": "C11C"
+  },
+  {
+    "id": "S049",
+    "name": "Sara Sharma",
+    "grade": "5",
+    "email": "sara.sharma49@school.edu",
+    "phone": "9897214637",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C5C"
+  },
+  {
+    "id": "S050",
+    "name": "Sara Sinha",
+    "grade": "11",
+    "email": "sara.sinha50@school.edu",
+    "phone": "9817620523",
+    "attendanceRate": 0.97,
+    "status": "active",
+    "classId": "C11C"
+  },
+  {
+    "id": "S051",
+    "name": "Anika Malhotra",
+    "grade": "7",
+    "email": "anika.malhotra51@school.edu",
+    "phone": "9872796056",
+    "attendanceRate": 0.82,
+    "status": "inactive",
+    "classId": "C7B"
+  },
+  {
+    "id": "S052",
+    "name": "Navya Bose",
+    "grade": "3",
+    "email": "navya.bose52@school.edu",
+    "phone": "9863184988",
+    "attendanceRate": 0.89,
+    "status": "inactive",
+    "classId": "C3B"
+  },
+  {
+    "id": "S053",
+    "name": "Ira Reddy",
+    "grade": "5",
+    "email": "ira.reddy53@school.edu",
+    "phone": "9874968225",
+    "attendanceRate": 0.81,
+    "status": "active",
+    "classId": "C5B"
+  },
+  {
+    "id": "S054",
+    "name": "Navya Sharma",
+    "grade": "4",
+    "email": "navya.sharma54@school.edu",
+    "phone": "9895143203",
+    "attendanceRate": 0.98,
+    "status": "inactive",
+    "classId": "C4C"
+  },
+  {
+    "id": "S055",
+    "name": "Vivaan Bhatia",
+    "grade": "1",
+    "email": "vivaan.bhatia55@school.edu",
+    "phone": "9842474321",
+    "attendanceRate": 0.99,
+    "status": "active",
+    "classId": "C1B"
+  },
+  {
+    "id": "S056",
+    "name": "Aadhya Chauhan",
+    "grade": "5",
+    "email": "aadhya.chauhan56@school.edu",
+    "phone": "9883294562",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C5C"
+  },
+  {
+    "id": "S057",
+    "name": "Ishaan Gupta",
+    "grade": "12",
+    "email": "ishaan.gupta57@school.edu",
+    "phone": "9846882192",
+    "attendanceRate": 0.98,
+    "status": "active",
+    "classId": "C12A"
+  },
+  {
+    "id": "S058",
+    "name": "Sara Gill",
+    "grade": "7",
+    "email": "sara.gill58@school.edu",
+    "phone": "9879147910",
+    "attendanceRate": 0.97,
+    "status": "inactive",
+    "classId": "C7B"
+  },
+  {
+    "id": "S059",
+    "name": "Vihaan Malhotra",
+    "grade": "1",
+    "email": "vihaan.malhotra59@school.edu",
+    "phone": "9852149862",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C1B"
+  },
+  {
+    "id": "S060",
+    "name": "Ishaan Patel",
+    "grade": "2",
+    "email": "ishaan.patel60@school.edu",
+    "phone": "9889831384",
+    "attendanceRate": 0.93,
+    "status": "active",
+    "classId": "C2A"
+  },
+  {
+    "id": "S061",
+    "name": "Reyansh Mehta",
+    "grade": "3",
+    "email": "reyansh.mehta61@school.edu",
+    "phone": "9881152321",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C3B"
+  },
+  {
+    "id": "S062",
+    "name": "Arjun Chauhan",
+    "grade": "9",
+    "email": "arjun.chauhan62@school.edu",
+    "phone": "9849112089",
+    "attendanceRate": 0.81,
+    "status": "active",
+    "classId": "C9B"
+  },
+  {
+    "id": "S063",
+    "name": "Aditya Malhotra",
+    "grade": "1",
+    "email": "aditya.malhotra63@school.edu",
+    "phone": "9824080933",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C1A"
+  },
+  {
+    "id": "S064",
+    "name": "Vivaan Chopra",
+    "grade": "11",
+    "email": "vivaan.chopra64@school.edu",
+    "phone": "9854156992",
+    "attendanceRate": 0.89,
+    "status": "active",
+    "classId": "C11B"
+  },
+  {
+    "id": "S065",
+    "name": "Ananya Patel",
+    "grade": "11",
+    "email": "ananya.patel65@school.edu",
+    "phone": "9893558426",
+    "attendanceRate": 0.97,
+    "status": "active",
+    "classId": "C11A"
+  },
+  {
+    "id": "S066",
+    "name": "Ira Iyer",
+    "grade": "10",
+    "email": "ira.iyer66@school.edu",
+    "phone": "9842139834",
+    "attendanceRate": 0.84,
+    "status": "inactive",
+    "classId": "C10B"
+  },
+  {
+    "id": "S067",
+    "name": "Kabir Malhotra",
+    "grade": "2",
+    "email": "kabir.malhotra67@school.edu",
+    "phone": "9835892323",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C2A"
+  },
+  {
+    "id": "S068",
+    "name": "Arjun Agarwal",
+    "grade": "8",
+    "email": "arjun.agarwal68@school.edu",
+    "phone": "9896989941",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C8C"
+  },
+  {
+    "id": "S069",
+    "name": "Pari Patel",
+    "grade": "3",
+    "email": "pari.patel69@school.edu",
+    "phone": "9883726303",
+    "attendanceRate": 0.86,
+    "status": "active",
+    "classId": "C3C"
+  },
+  {
+    "id": "S070",
+    "name": "Ananya Gill",
+    "grade": "10",
+    "email": "ananya.gill70@school.edu",
+    "phone": "9863497335",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C10C"
+  },
+  {
+    "id": "S071",
+    "name": "Diya Khan",
+    "grade": "6",
+    "email": "diya.khan71@school.edu",
+    "phone": "9888378012",
+    "attendanceRate": 0.97,
+    "status": "inactive",
+    "classId": "C6B"
+  },
+  {
+    "id": "S072",
+    "name": "Riya Verma",
+    "grade": "10",
+    "email": "riya.verma72@school.edu",
+    "phone": "9848942097",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C10C"
+  },
+  {
+    "id": "S073",
+    "name": "Arjun Patel",
+    "grade": "2",
+    "email": "arjun.patel73@school.edu",
+    "phone": "9813300975",
+    "attendanceRate": 0.94,
+    "status": "inactive",
+    "classId": "C2B"
+  },
+  {
+    "id": "S074",
+    "name": "Riya Sharma",
+    "grade": "6",
+    "email": "riya.sharma74@school.edu",
+    "phone": "9833634019",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C6C"
+  },
+  {
+    "id": "S075",
+    "name": "Sai Nair",
+    "grade": "11",
+    "email": "sai.nair75@school.edu",
+    "phone": "9846716645",
+    "attendanceRate": 0.99,
+    "status": "active",
+    "classId": "C11C"
+  },
+  {
+    "id": "S076",
+    "name": "Aarav Kapoor",
+    "grade": "4",
+    "email": "aarav.kapoor76@school.edu",
+    "phone": "9865937111",
+    "attendanceRate": 0.98,
+    "status": "active",
+    "classId": "C4B"
+  },
+  {
+    "id": "S077",
+    "name": "Vihaan Sinha",
+    "grade": "2",
+    "email": "vihaan.sinha77@school.edu",
+    "phone": "9845418053",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C2C"
+  },
+  {
+    "id": "S078",
+    "name": "Vihaan Khan",
+    "grade": "7",
+    "email": "vihaan.khan78@school.edu",
+    "phone": "9870652299",
+    "attendanceRate": 0.87,
+    "status": "active",
+    "classId": "C7B"
+  },
+  {
+    "id": "S079",
+    "name": "Ananya Sinha",
+    "grade": "4",
+    "email": "ananya.sinha79@school.edu",
+    "phone": "9899539209",
+    "attendanceRate": 0.93,
+    "status": "inactive",
+    "classId": "C4A"
+  },
+  {
+    "id": "S080",
+    "name": "Sara Iyer",
+    "grade": "8",
+    "email": "sara.iyer80@school.edu",
+    "phone": "9833613629",
+    "attendanceRate": 0.85,
+    "status": "inactive",
+    "classId": "C8B"
+  },
+  {
+    "id": "S081",
+    "name": "Riya Patel",
+    "grade": "6",
+    "email": "riya.patel81@school.edu",
+    "phone": "9879909451",
+    "attendanceRate": 0.82,
+    "status": "inactive",
+    "classId": "C6B"
+  },
+  {
+    "id": "S082",
+    "name": "Kabir Nair",
+    "grade": "6",
+    "email": "kabir.nair82@school.edu",
+    "phone": "9880749732",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C6B"
+  },
+  {
+    "id": "S083",
+    "name": "Krishna Reddy",
+    "grade": "10",
+    "email": "krishna.reddy83@school.edu",
+    "phone": "9837043954",
+    "attendanceRate": 0.85,
+    "status": "inactive",
+    "classId": "C10C"
+  },
+  {
+    "id": "S084",
+    "name": "Vivaan Sharma",
+    "grade": "8",
+    "email": "vivaan.sharma84@school.edu",
+    "phone": "9840725049",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C8C"
+  },
+  {
+    "id": "S085",
+    "name": "Diya Iyer",
+    "grade": "1",
+    "email": "diya.iyer85@school.edu",
+    "phone": "9864716792",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C1B"
+  },
+  {
+    "id": "S086",
+    "name": "Vihaan Reddy",
+    "grade": "12",
+    "email": "vihaan.reddy86@school.edu",
+    "phone": "9888809117",
+    "attendanceRate": 0.99,
+    "status": "active",
+    "classId": "C12C"
+  },
+  {
+    "id": "S087",
+    "name": "Vihaan Sinha",
+    "grade": "11",
+    "email": "vihaan.sinha87@school.edu",
+    "phone": "9878056158",
+    "attendanceRate": 0.98,
+    "status": "active",
+    "classId": "C11A"
+  },
+  {
+    "id": "S088",
+    "name": "Anika Gupta",
+    "grade": "12",
+    "email": "anika.gupta88@school.edu",
+    "phone": "9843765523",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C12C"
+  },
+  {
+    "id": "S089",
+    "name": "Aadhya Bhatia",
+    "grade": "5",
+    "email": "aadhya.bhatia89@school.edu",
+    "phone": "9845789665",
+    "attendanceRate": 0.85,
+    "status": "active",
+    "classId": "C5C"
+  },
+  {
+    "id": "S090",
+    "name": "Sara Reddy",
+    "grade": "12",
+    "email": "sara.reddy90@school.edu",
+    "phone": "9896824873",
+    "attendanceRate": 0.8,
+    "status": "active",
+    "classId": "C12C"
+  },
+  {
+    "id": "S091",
+    "name": "Sai Bose",
+    "grade": "3",
+    "email": "sai.bose91@school.edu",
+    "phone": "9891765885",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C3A"
+  },
+  {
+    "id": "S092",
+    "name": "Aditya Reddy",
+    "grade": "1",
+    "email": "aditya.reddy92@school.edu",
+    "phone": "9823278479",
+    "attendanceRate": 0.85,
+    "status": "active",
+    "classId": "C1A"
+  },
+  {
+    "id": "S093",
+    "name": "Riya Agarwal",
+    "grade": "9",
+    "email": "riya.agarwal93@school.edu",
+    "phone": "9853544267",
+    "attendanceRate": 0.92,
+    "status": "active",
+    "classId": "C9C"
+  },
+  {
+    "id": "S094",
+    "name": "Sai Mehta",
+    "grade": "7",
+    "email": "sai.mehta94@school.edu",
+    "phone": "9851096234",
+    "attendanceRate": 0.86,
+    "status": "active",
+    "classId": "C7A"
+  },
+  {
+    "id": "S095",
+    "name": "Vihaan Reddy",
+    "grade": "8",
+    "email": "vihaan.reddy95@school.edu",
+    "phone": "9855305200",
+    "attendanceRate": 0.87,
+    "status": "active",
+    "classId": "C8C"
+  },
+  {
+    "id": "S096",
+    "name": "Ira Sharma",
+    "grade": "1",
+    "email": "ira.sharma96@school.edu",
+    "phone": "9870750865",
+    "attendanceRate": 0.98,
+    "status": "active",
+    "classId": "C1A"
+  },
+  {
+    "id": "S097",
+    "name": "Anika Khan",
+    "grade": "11",
+    "email": "anika.khan97@school.edu",
+    "phone": "9870265738",
+    "attendanceRate": 0.97,
+    "status": "active",
+    "classId": "C11C"
+  },
+  {
+    "id": "S098",
+    "name": "Anika Patel",
+    "grade": "4",
+    "email": "anika.patel98@school.edu",
+    "phone": "9881103170",
+    "attendanceRate": 0.94,
+    "status": "active",
+    "classId": "C4B"
+  },
+  {
+    "id": "S099",
+    "name": "Vihaan Chopra",
+    "grade": "6",
+    "email": "vihaan.chopra99@school.edu",
+    "phone": "9877154710",
+    "attendanceRate": 0.85,
+    "status": "active",
+    "classId": "C6C"
+  },
+  {
+    "id": "S100",
+    "name": "Ira Mehta",
+    "grade": "3",
+    "email": "ira.mehta100@school.edu",
+    "phone": "9827158718",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C3A"
+  },
+  {
+    "id": "S101",
+    "name": "Sara Bhatia",
+    "grade": "11",
+    "email": "sara.bhatia101@school.edu",
+    "phone": "9837662015",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C11C"
+  },
+  {
+    "id": "S102",
+    "name": "Ira Chauhan",
+    "grade": "2",
+    "email": "ira.chauhan102@school.edu",
+    "phone": "9871127108",
+    "attendanceRate": 0.89,
+    "status": "active",
+    "classId": "C2A"
+  },
+  {
+    "id": "S103",
+    "name": "Pari Mehta",
+    "grade": "11",
+    "email": "pari.mehta103@school.edu",
+    "phone": "9843972916",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C11C"
+  },
+  {
+    "id": "S104",
+    "name": "Krishna Sharma",
+    "grade": "4",
+    "email": "krishna.sharma104@school.edu",
+    "phone": "9837444738",
+    "attendanceRate": 0.87,
+    "status": "inactive",
+    "classId": "C4B"
+  },
+  {
+    "id": "S105",
+    "name": "Riya Verma",
+    "grade": "11",
+    "email": "riya.verma105@school.edu",
+    "phone": "9885896327",
+    "attendanceRate": 0.94,
+    "status": "inactive",
+    "classId": "C11A"
+  },
+  {
+    "id": "S106",
+    "name": "Ananya Gill",
+    "grade": "5",
+    "email": "ananya.gill106@school.edu",
+    "phone": "9856728278",
+    "attendanceRate": 0.98,
+    "status": "inactive",
+    "classId": "C5C"
+  },
+  {
+    "id": "S107",
+    "name": "Ira Malhotra",
+    "grade": "10",
+    "email": "ira.malhotra107@school.edu",
+    "phone": "9858234900",
+    "attendanceRate": 0.97,
+    "status": "active",
+    "classId": "C10B"
+  },
+  {
+    "id": "S108",
+    "name": "Reyansh Gill",
+    "grade": "9",
+    "email": "reyansh.gill108@school.edu",
+    "phone": "9873443423",
+    "attendanceRate": 0.87,
+    "status": "inactive",
+    "classId": "C9A"
+  },
+  {
+    "id": "S109",
+    "name": "Reyansh Reddy",
+    "grade": "12",
+    "email": "reyansh.reddy109@school.edu",
+    "phone": "9856318281",
+    "attendanceRate": 0.91,
+    "status": "inactive",
+    "classId": "C12B"
+  },
+  {
+    "id": "S110",
+    "name": "Kabir Nair",
+    "grade": "7",
+    "email": "kabir.nair110@school.edu",
+    "phone": "9879782654",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C7C"
+  },
+  {
+    "id": "S111",
+    "name": "Reyansh Chopra",
+    "grade": "8",
+    "email": "reyansh.chopra111@school.edu",
+    "phone": "9892083700",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C8A"
+  },
+  {
+    "id": "S112",
+    "name": "Vivaan Singhania",
+    "grade": "1",
+    "email": "vivaan.singhania112@school.edu",
+    "phone": "9853877442",
+    "attendanceRate": 0.98,
+    "status": "inactive",
+    "classId": "C1A"
+  },
+  {
+    "id": "S113",
+    "name": "Vivaan Malhotra",
+    "grade": "10",
+    "email": "vivaan.malhotra113@school.edu",
+    "phone": "9831459783",
+    "attendanceRate": 0.97,
+    "status": "active",
+    "classId": "C10C"
+  },
+  {
+    "id": "S114",
+    "name": "Reyansh Bose",
+    "grade": "10",
+    "email": "reyansh.bose114@school.edu",
+    "phone": "9874879211",
+    "attendanceRate": 0.95,
+    "status": "active",
+    "classId": "C10B"
+  },
+  {
+    "id": "S115",
+    "name": "Pari Verma",
+    "grade": "6",
+    "email": "pari.verma115@school.edu",
+    "phone": "9844565839",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C6C"
+  },
+  {
+    "id": "S116",
+    "name": "Arjun Agarwal",
+    "grade": "8",
+    "email": "arjun.agarwal116@school.edu",
+    "phone": "9885954769",
+    "attendanceRate": 0.94,
+    "status": "active",
+    "classId": "C8A"
+  },
+  {
+    "id": "S117",
+    "name": "Myra Khan",
+    "grade": "6",
+    "email": "myra.khan117@school.edu",
+    "phone": "9890474638",
+    "attendanceRate": 0.9,
+    "status": "inactive",
+    "classId": "C6C"
+  },
+  {
+    "id": "S118",
+    "name": "Arjun Sinha",
+    "grade": "5",
+    "email": "arjun.sinha118@school.edu",
+    "phone": "9857191942",
+    "attendanceRate": 0.93,
+    "status": "inactive",
+    "classId": "C5C"
+  },
+  {
+    "id": "S119",
+    "name": "Anika Khan",
+    "grade": "2",
+    "email": "anika.khan119@school.edu",
+    "phone": "9868074991",
+    "attendanceRate": 0.91,
+    "status": "active",
+    "classId": "C2A"
+  },
+  {
+    "id": "S120",
+    "name": "Arjun Gupta",
+    "grade": "3",
+    "email": "arjun.gupta120@school.edu",
+    "phone": "9845847069",
+    "attendanceRate": 0.87,
+    "status": "active",
+    "classId": "C3B"
+  },
+  {
+    "id": "S121",
+    "name": "Vihaan Chopra",
+    "grade": "3",
+    "email": "vihaan.chopra121@school.edu",
+    "phone": "9832693504",
+    "attendanceRate": 0.97,
+    "status": "inactive",
+    "classId": "C3B"
+  },
+  {
+    "id": "S122",
+    "name": "Diya Nair",
+    "grade": "12",
+    "email": "diya.nair122@school.edu",
+    "phone": "9833127732",
+    "attendanceRate": 0.88,
+    "status": "inactive",
+    "classId": "C12A"
+  },
+  {
+    "id": "S123",
+    "name": "Kabir Gill",
+    "grade": "1",
+    "email": "kabir.gill123@school.edu",
+    "phone": "9840406827",
+    "attendanceRate": 0.87,
+    "status": "inactive",
+    "classId": "C1B"
+  },
+  {
+    "id": "S124",
+    "name": "Anika Agarwal",
+    "grade": "4",
+    "email": "anika.agarwal124@school.edu",
+    "phone": "9870019973",
+    "attendanceRate": 0.83,
+    "status": "active",
+    "classId": "C4C"
+  },
+  {
+    "id": "S125",
+    "name": "Reyansh Bose",
+    "grade": "12",
+    "email": "reyansh.bose125@school.edu",
+    "phone": "9849880833",
+    "attendanceRate": 0.92,
+    "status": "active",
+    "classId": "C12B"
+  },
+  {
+    "id": "S126",
+    "name": "Kabir Malhotra",
+    "grade": "8",
+    "email": "kabir.malhotra126@school.edu",
+    "phone": "9868417872",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C8A"
+  },
+  {
+    "id": "S127",
+    "name": "Sai Gupta",
+    "grade": "4",
+    "email": "sai.gupta127@school.edu",
+    "phone": "9812381199",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C4B"
+  },
+  {
+    "id": "S128",
+    "name": "Navya Gill",
+    "grade": "7",
+    "email": "navya.gill128@school.edu",
+    "phone": "9842239234",
+    "attendanceRate": 0.81,
+    "status": "inactive",
+    "classId": "C7C"
+  },
+  {
+    "id": "S129",
+    "name": "Pari Chauhan",
+    "grade": "11",
+    "email": "pari.chauhan129@school.edu",
+    "phone": "9866519316",
+    "attendanceRate": 0.95,
+    "status": "active",
+    "classId": "C11B"
+  },
+  {
+    "id": "S130",
+    "name": "Anika Mehta",
+    "grade": "3",
+    "email": "anika.mehta130@school.edu",
+    "phone": "9876981050",
+    "attendanceRate": 0.9,
+    "status": "active",
+    "classId": "C3A"
+  },
+  {
+    "id": "S131",
+    "name": "Riya Iyer",
+    "grade": "11",
+    "email": "riya.iyer131@school.edu",
+    "phone": "9813169516",
+    "attendanceRate": 0.91,
+    "status": "active",
+    "classId": "C11C"
+  },
+  {
+    "id": "S132",
+    "name": "Sara Desai",
+    "grade": "1",
+    "email": "sara.desai132@school.edu",
+    "phone": "9871324910",
+    "attendanceRate": 0.91,
+    "status": "active",
+    "classId": "C1A"
+  },
+  {
+    "id": "S133",
+    "name": "Arjun Kapoor",
+    "grade": "5",
+    "email": "arjun.kapoor133@school.edu",
+    "phone": "9874118528",
+    "attendanceRate": 0.84,
+    "status": "inactive",
+    "classId": "C5B"
+  },
+  {
+    "id": "S134",
+    "name": "Myra Bose",
+    "grade": "1",
+    "email": "myra.bose134@school.edu",
+    "phone": "9881802723",
+    "attendanceRate": 0.9,
+    "status": "active",
+    "classId": "C1B"
+  },
+  {
+    "id": "S135",
+    "name": "Kabir Gill",
+    "grade": "7",
+    "email": "kabir.gill135@school.edu",
+    "phone": "9844925038",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C7A"
+  },
+  {
+    "id": "S136",
+    "name": "Riya Chauhan",
+    "grade": "4",
+    "email": "riya.chauhan136@school.edu",
+    "phone": "9871299572",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C4B"
+  },
+  {
+    "id": "S137",
+    "name": "Navya Desai",
+    "grade": "7",
+    "email": "navya.desai137@school.edu",
+    "phone": "9846748752",
+    "attendanceRate": 0.8,
+    "status": "active",
+    "classId": "C7C"
+  },
+  {
+    "id": "S138",
+    "name": "Vihaan Gill",
+    "grade": "3",
+    "email": "vihaan.gill138@school.edu",
+    "phone": "9863032365",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C3C"
+  },
+  {
+    "id": "S139",
+    "name": "Krishna Mehta",
+    "grade": "2",
+    "email": "krishna.mehta139@school.edu",
+    "phone": "9870968928",
+    "attendanceRate": 0.88,
+    "status": "inactive",
+    "classId": "C2B"
+  },
+  {
+    "id": "S140",
+    "name": "Myra Agarwal",
+    "grade": "7",
+    "email": "myra.agarwal140@school.edu",
+    "phone": "9856366473",
+    "attendanceRate": 0.95,
+    "status": "active",
+    "classId": "C7A"
+  },
+  {
+    "id": "S141",
+    "name": "Ishaan Reddy",
+    "grade": "12",
+    "email": "ishaan.reddy141@school.edu",
+    "phone": "9895961133",
+    "attendanceRate": 0.95,
+    "status": "active",
+    "classId": "C12B"
+  },
+  {
+    "id": "S142",
+    "name": "Ishaan Reddy",
+    "grade": "1",
+    "email": "ishaan.reddy142@school.edu",
+    "phone": "9828395117",
+    "attendanceRate": 0.98,
+    "status": "inactive",
+    "classId": "C1B"
+  },
+  {
+    "id": "S143",
+    "name": "Riya Malhotra",
+    "grade": "3",
+    "email": "riya.malhotra143@school.edu",
+    "phone": "9822057065",
+    "attendanceRate": 0.86,
+    "status": "active",
+    "classId": "C3A"
+  },
+  {
+    "id": "S144",
+    "name": "Arjun Chopra",
+    "grade": "2",
+    "email": "arjun.chopra144@school.edu",
+    "phone": "9876028977",
+    "attendanceRate": 0.81,
+    "status": "inactive",
+    "classId": "C2C"
+  },
+  {
+    "id": "S145",
+    "name": "Kabir Sharma",
+    "grade": "10",
+    "email": "kabir.sharma145@school.edu",
+    "phone": "9837777558",
+    "attendanceRate": 0.86,
+    "status": "active",
+    "classId": "C10C"
+  },
+  {
+    "id": "S146",
+    "name": "Diya Bose",
+    "grade": "2",
+    "email": "diya.bose146@school.edu",
+    "phone": "9850164952",
+    "attendanceRate": 0.93,
+    "status": "active",
+    "classId": "C2B"
+  },
+  {
+    "id": "S147",
+    "name": "Navya Chauhan",
+    "grade": "3",
+    "email": "navya.chauhan147@school.edu",
+    "phone": "9843913026",
+    "attendanceRate": 0.91,
+    "status": "inactive",
+    "classId": "C3C"
+  },
+  {
+    "id": "S148",
+    "name": "Vivaan Bose",
+    "grade": "5",
+    "email": "vivaan.bose148@school.edu",
+    "phone": "9873913943",
+    "attendanceRate": 0.81,
+    "status": "active",
+    "classId": "C5C"
+  },
+  {
+    "id": "S149",
+    "name": "Arjun Agarwal",
+    "grade": "3",
+    "email": "arjun.agarwal149@school.edu",
+    "phone": "9831363769",
+    "attendanceRate": 0.85,
+    "status": "active",
+    "classId": "C3C"
+  },
+  {
+    "id": "S150",
+    "name": "Anika Khan",
+    "grade": "3",
+    "email": "anika.khan150@school.edu",
+    "phone": "9822298168",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C3C"
+  },
+  {
+    "id": "S151",
+    "name": "Navya Verma",
+    "grade": "9",
+    "email": "navya.verma151@school.edu",
+    "phone": "9879797229",
+    "attendanceRate": 0.9,
+    "status": "active",
+    "classId": "C9B"
+  },
+  {
+    "id": "S152",
+    "name": "Kabir Verma",
+    "grade": "2",
+    "email": "kabir.verma152@school.edu",
+    "phone": "9879075637",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C2B"
+  },
+  {
+    "id": "S153",
+    "name": "Vivaan Agarwal",
+    "grade": "8",
+    "email": "vivaan.agarwal153@school.edu",
+    "phone": "9824146446",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C8C"
+  },
+  {
+    "id": "S154",
+    "name": "Arjun Iyer",
+    "grade": "6",
+    "email": "arjun.iyer154@school.edu",
+    "phone": "9852013256",
+    "attendanceRate": 0.98,
+    "status": "active",
+    "classId": "C6A"
+  },
+  {
+    "id": "S155",
+    "name": "Riya Gupta",
+    "grade": "12",
+    "email": "riya.gupta155@school.edu",
+    "phone": "9873188483",
+    "attendanceRate": 0.81,
+    "status": "inactive",
+    "classId": "C12B"
+  },
+  {
+    "id": "S156",
+    "name": "Krishna Singhania",
+    "grade": "1",
+    "email": "krishna.singhania156@school.edu",
+    "phone": "9870324522",
+    "attendanceRate": 0.92,
+    "status": "inactive",
+    "classId": "C1A"
+  },
+  {
+    "id": "S157",
+    "name": "Vihaan Mehta",
+    "grade": "8",
+    "email": "vihaan.mehta157@school.edu",
+    "phone": "9870306637",
+    "attendanceRate": 0.92,
+    "status": "active",
+    "classId": "C8A"
+  },
+  {
+    "id": "S158",
+    "name": "Ira Gupta",
+    "grade": "9",
+    "email": "ira.gupta158@school.edu",
+    "phone": "9825740300",
+    "attendanceRate": 0.8,
+    "status": "inactive",
+    "classId": "C9A"
+  },
+  {
+    "id": "S159",
+    "name": "Riya Chopra",
+    "grade": "10",
+    "email": "riya.chopra159@school.edu",
+    "phone": "9869373123",
+    "attendanceRate": 0.83,
+    "status": "active",
+    "classId": "C10C"
+  },
+  {
+    "id": "S160",
+    "name": "Aditya Bose",
+    "grade": "9",
+    "email": "aditya.bose160@school.edu",
+    "phone": "9820672825",
+    "attendanceRate": 0.99,
+    "status": "inactive",
+    "classId": "C9C"
+  },
+  {
+    "id": "S161",
+    "name": "Krishna Bhatia",
+    "grade": "11",
+    "email": "krishna.bhatia161@school.edu",
+    "phone": "9847711236",
+    "attendanceRate": 0.9,
+    "status": "inactive",
+    "classId": "C11B"
+  },
+  {
+    "id": "S162",
+    "name": "Anika Gill",
+    "grade": "6",
+    "email": "anika.gill162@school.edu",
+    "phone": "9822426047",
+    "attendanceRate": 0.87,
+    "status": "inactive",
+    "classId": "C6B"
+  },
+  {
+    "id": "S163",
+    "name": "Diya Iyer",
+    "grade": "1",
+    "email": "diya.iyer163@school.edu",
+    "phone": "9890596044",
+    "attendanceRate": 0.9,
+    "status": "inactive",
+    "classId": "C1B"
+  },
+  {
+    "id": "S164",
+    "name": "Krishna Sharma",
+    "grade": "11",
+    "email": "krishna.sharma164@school.edu",
+    "phone": "9856355201",
+    "attendanceRate": 0.95,
+    "status": "active",
+    "classId": "C11A"
+  },
+  {
+    "id": "S165",
+    "name": "Aditya Gill",
+    "grade": "12",
+    "email": "aditya.gill165@school.edu",
+    "phone": "9899813749",
+    "attendanceRate": 0.81,
+    "status": "inactive",
+    "classId": "C12B"
+  },
+  {
+    "id": "S166",
+    "name": "Aditya Patel",
+    "grade": "1",
+    "email": "aditya.patel166@school.edu",
+    "phone": "9889639581",
+    "attendanceRate": 0.85,
+    "status": "inactive",
+    "classId": "C1B"
+  },
+  {
+    "id": "S167",
+    "name": "Ananya Verma",
+    "grade": "8",
+    "email": "ananya.verma167@school.edu",
+    "phone": "9825825288",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C8B"
+  },
+  {
+    "id": "S168",
+    "name": "Ira Iyer",
+    "grade": "3",
+    "email": "ira.iyer168@school.edu",
+    "phone": "9855231956",
+    "attendanceRate": 0.87,
+    "status": "active",
+    "classId": "C3C"
+  },
+  {
+    "id": "S169",
+    "name": "Myra Agarwal",
+    "grade": "8",
+    "email": "myra.agarwal169@school.edu",
+    "phone": "9813205971",
+    "attendanceRate": 0.88,
+    "status": "active",
+    "classId": "C8C"
+  },
+  {
+    "id": "S170",
+    "name": "Sara Mehta",
+    "grade": "7",
+    "email": "sara.mehta170@school.edu",
+    "phone": "9822739787",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C7A"
+  },
+  {
+    "id": "S171",
+    "name": "Vivaan Gill",
+    "grade": "3",
+    "email": "vivaan.gill171@school.edu",
+    "phone": "9814494265",
+    "attendanceRate": 0.96,
+    "status": "inactive",
+    "classId": "C3C"
+  },
+  {
+    "id": "S172",
+    "name": "Vivaan Singhania",
+    "grade": "2",
+    "email": "vivaan.singhania172@school.edu",
+    "phone": "9824294698",
+    "attendanceRate": 0.8,
+    "status": "inactive",
+    "classId": "C2B"
+  },
+  {
+    "id": "S173",
+    "name": "Sai Malhotra",
+    "grade": "12",
+    "email": "sai.malhotra173@school.edu",
+    "phone": "9894851317",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C12C"
+  },
+  {
+    "id": "S174",
+    "name": "Ishaan Agarwal",
+    "grade": "3",
+    "email": "ishaan.agarwal174@school.edu",
+    "phone": "9854054884",
+    "attendanceRate": 0.99,
+    "status": "inactive",
+    "classId": "C3C"
+  },
+  {
+    "id": "S175",
+    "name": "Reyansh Chopra",
+    "grade": "10",
+    "email": "reyansh.chopra175@school.edu",
+    "phone": "9811309598",
+    "attendanceRate": 0.81,
+    "status": "active",
+    "classId": "C10C"
+  },
+  {
+    "id": "S176",
+    "name": "Krishna Sharma",
+    "grade": "3",
+    "email": "krishna.sharma176@school.edu",
+    "phone": "9876694371",
+    "attendanceRate": 0.83,
+    "status": "inactive",
+    "classId": "C3B"
+  },
+  {
+    "id": "S177",
+    "name": "Riya Sinha",
+    "grade": "1",
+    "email": "riya.sinha177@school.edu",
+    "phone": "9895257832",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C1A"
+  },
+  {
+    "id": "S178",
+    "name": "Vihaan Bhatia",
+    "grade": "3",
+    "email": "vihaan.bhatia178@school.edu",
+    "phone": "9872377052",
+    "attendanceRate": 0.88,
+    "status": "active",
+    "classId": "C3C"
+  },
+  {
+    "id": "S179",
+    "name": "Krishna Verma",
+    "grade": "11",
+    "email": "krishna.verma179@school.edu",
+    "phone": "9856714933",
+    "attendanceRate": 0.92,
+    "status": "active",
+    "classId": "C11C"
+  },
+  {
+    "id": "S180",
+    "name": "Sara Desai",
+    "grade": "11",
+    "email": "sara.desai180@school.edu",
+    "phone": "9855937613",
+    "attendanceRate": 0.82,
+    "status": "active",
+    "classId": "C11B"
+  },
+  {
+    "id": "S181",
+    "name": "Reyansh Chopra",
+    "grade": "6",
+    "email": "reyansh.chopra181@school.edu",
+    "phone": "9812709483",
+    "attendanceRate": 0.92,
+    "status": "inactive",
+    "classId": "C6C"
+  },
+  {
+    "id": "S182",
+    "name": "Aadhya Desai",
+    "grade": "5",
+    "email": "aadhya.desai182@school.edu",
+    "phone": "9826585501",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C5A"
+  },
+  {
+    "id": "S183",
+    "name": "Aditya Chopra",
+    "grade": "4",
+    "email": "aditya.chopra183@school.edu",
+    "phone": "9890302721",
+    "attendanceRate": 0.94,
+    "status": "inactive",
+    "classId": "C4B"
+  },
+  {
+    "id": "S184",
+    "name": "Pari Agarwal",
+    "grade": "5",
+    "email": "pari.agarwal184@school.edu",
+    "phone": "9887238878",
+    "attendanceRate": 0.87,
+    "status": "inactive",
+    "classId": "C5A"
+  },
+  {
+    "id": "S185",
+    "name": "Diya Verma",
+    "grade": "4",
+    "email": "diya.verma185@school.edu",
+    "phone": "9847763456",
+    "attendanceRate": 0.81,
+    "status": "inactive",
+    "classId": "C4A"
+  },
+  {
+    "id": "S186",
+    "name": "Vihaan Desai",
+    "grade": "1",
+    "email": "vihaan.desai186@school.edu",
+    "phone": "9889931046",
+    "attendanceRate": 0.93,
+    "status": "inactive",
+    "classId": "C1B"
+  },
+  {
+    "id": "S187",
+    "name": "Vihaan Patel",
+    "grade": "9",
+    "email": "vihaan.patel187@school.edu",
+    "phone": "9882900763",
+    "attendanceRate": 0.98,
+    "status": "active",
+    "classId": "C9B"
+  },
+  {
+    "id": "S188",
+    "name": "Ishaan Iyer",
+    "grade": "11",
+    "email": "ishaan.iyer188@school.edu",
+    "phone": "9814781596",
+    "attendanceRate": 0.8,
+    "status": "inactive",
+    "classId": "C11C"
+  },
+  {
+    "id": "S189",
+    "name": "Navya Malhotra",
+    "grade": "5",
+    "email": "navya.malhotra189@school.edu",
+    "phone": "9824950468",
+    "attendanceRate": 0.88,
+    "status": "inactive",
+    "classId": "C5A"
+  },
+  {
+    "id": "S190",
+    "name": "Vihaan Nair",
+    "grade": "5",
+    "email": "vihaan.nair190@school.edu",
+    "phone": "9859188567",
+    "attendanceRate": 0.99,
+    "status": "active",
+    "classId": "C5C"
+  },
+  {
+    "id": "S191",
+    "name": "Ishaan Gupta",
+    "grade": "11",
+    "email": "ishaan.gupta191@school.edu",
+    "phone": "9860857031",
+    "attendanceRate": 0.9,
+    "status": "inactive",
+    "classId": "C11C"
+  },
+  {
+    "id": "S192",
+    "name": "Reyansh Sharma",
+    "grade": "6",
+    "email": "reyansh.sharma192@school.edu",
+    "phone": "9878108288",
+    "attendanceRate": 0.96,
+    "status": "inactive",
+    "classId": "C6A"
+  },
+  {
+    "id": "S193",
+    "name": "Aarav Sharma",
+    "grade": "11",
+    "email": "aarav.sharma193@school.edu",
+    "phone": "9812847400",
+    "attendanceRate": 0.88,
+    "status": "inactive",
+    "classId": "C11C"
+  },
+  {
+    "id": "S194",
+    "name": "Aarav Chopra",
+    "grade": "9",
+    "email": "aarav.chopra194@school.edu",
+    "phone": "9859704291",
+    "attendanceRate": 0.87,
+    "status": "inactive",
+    "classId": "C9B"
+  },
+  {
+    "id": "S195",
+    "name": "Krishna Singhania",
+    "grade": "1",
+    "email": "krishna.singhania195@school.edu",
+    "phone": "9814686230",
+    "attendanceRate": 0.82,
+    "status": "inactive",
+    "classId": "C1C"
+  },
+  {
+    "id": "S196",
+    "name": "Ishaan Chauhan",
+    "grade": "7",
+    "email": "ishaan.chauhan196@school.edu",
+    "phone": "9857760999",
+    "attendanceRate": 0.92,
+    "status": "active",
+    "classId": "C7A"
+  },
+  {
+    "id": "S197",
+    "name": "Krishna Chopra",
+    "grade": "11",
+    "email": "krishna.chopra197@school.edu",
+    "phone": "9893173493",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C11C"
+  },
+  {
+    "id": "S198",
+    "name": "Ira Agarwal",
+    "grade": "1",
+    "email": "ira.agarwal198@school.edu",
+    "phone": "9841355202",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C1C"
+  },
+  {
+    "id": "S199",
+    "name": "Aarav Bhatia",
+    "grade": "11",
+    "email": "aarav.bhatia199@school.edu",
+    "phone": "9810105494",
+    "attendanceRate": 0.87,
+    "status": "inactive",
+    "classId": "C11B"
+  },
+  {
+    "id": "S200",
+    "name": "Arjun Verma",
+    "grade": "7",
+    "email": "arjun.verma200@school.edu",
+    "phone": "9825187086",
+    "attendanceRate": 0.8,
+    "status": "active",
+    "classId": "C7A"
+  },
+  {
+    "id": "S201",
+    "name": "Ira Khan",
+    "grade": "5",
+    "email": "ira.khan201@school.edu",
+    "phone": "9897841487",
+    "attendanceRate": 0.95,
+    "status": "inactive",
+    "classId": "C5B"
+  },
+  {
+    "id": "S202",
+    "name": "Arjun Nair",
+    "grade": "2",
+    "email": "arjun.nair202@school.edu",
+    "phone": "9897805330",
+    "attendanceRate": 0.86,
+    "status": "active",
+    "classId": "C2A"
+  },
+  {
+    "id": "S203",
+    "name": "Vivaan Nair",
+    "grade": "6",
+    "email": "vivaan.nair203@school.edu",
+    "phone": "9864426642",
+    "attendanceRate": 0.85,
+    "status": "inactive",
+    "classId": "C6B"
+  },
+  {
+    "id": "S204",
+    "name": "Kabir Desai",
+    "grade": "9",
+    "email": "kabir.desai204@school.edu",
+    "phone": "9845201015",
+    "attendanceRate": 0.97,
+    "status": "inactive",
+    "classId": "C9C"
+  },
+  {
+    "id": "S205",
+    "name": "Krishna Patel",
+    "grade": "6",
+    "email": "krishna.patel205@school.edu",
+    "phone": "9863011216",
+    "attendanceRate": 0.89,
+    "status": "inactive",
+    "classId": "C6C"
+  },
+  {
+    "id": "S206",
+    "name": "Ira Iyer",
+    "grade": "8",
+    "email": "ira.iyer206@school.edu",
+    "phone": "9888447958",
+    "attendanceRate": 0.99,
+    "status": "inactive",
+    "classId": "C8C"
+  },
+  {
+    "id": "S207",
+    "name": "Ira Bose",
+    "grade": "4",
+    "email": "ira.bose207@school.edu",
+    "phone": "9865835496",
+    "attendanceRate": 0.8,
+    "status": "active",
+    "classId": "C4C"
+  },
+  {
+    "id": "S208",
+    "name": "Ananya Sinha",
+    "grade": "4",
+    "email": "ananya.sinha208@school.edu",
+    "phone": "9855726595",
+    "attendanceRate": 0.92,
+    "status": "inactive",
+    "classId": "C4B"
+  },
+  {
+    "id": "S209",
+    "name": "Ishaan Chopra",
+    "grade": "6",
+    "email": "ishaan.chopra209@school.edu",
+    "phone": "9876592541",
+    "attendanceRate": 0.88,
+    "status": "inactive",
+    "classId": "C6B"
+  },
+  {
+    "id": "S210",
+    "name": "Vivaan Reddy",
+    "grade": "7",
+    "email": "vivaan.reddy210@school.edu",
+    "phone": "9871167442",
+    "attendanceRate": 0.88,
+    "status": "inactive",
+    "classId": "C7A"
+  },
+  {
+    "id": "S211",
+    "name": "Myra Desai",
+    "grade": "10",
+    "email": "myra.desai211@school.edu",
+    "phone": "9851602623",
+    "attendanceRate": 0.89,
+    "status": "active",
+    "classId": "C10B"
+  },
+  {
+    "id": "S212",
+    "name": "Riya Malhotra",
+    "grade": "3",
+    "email": "riya.malhotra212@school.edu",
+    "phone": "9843221219",
+    "attendanceRate": 0.81,
+    "status": "active",
+    "classId": "C3A"
+  },
+  {
+    "id": "S213",
+    "name": "Vihaan Khan",
+    "grade": "10",
+    "email": "vihaan.khan213@school.edu",
+    "phone": "9885614471",
+    "attendanceRate": 0.82,
+    "status": "inactive",
+    "classId": "C10C"
+  },
+  {
+    "id": "S214",
+    "name": "Ishaan Reddy",
+    "grade": "1",
+    "email": "ishaan.reddy214@school.edu",
+    "phone": "9873647708",
+    "attendanceRate": 0.92,
+    "status": "active",
+    "classId": "C1C"
+  },
+  {
+    "id": "S215",
+    "name": "Ira Khan",
+    "grade": "9",
+    "email": "ira.khan215@school.edu",
+    "phone": "9860262137",
+    "attendanceRate": 0.86,
+    "status": "inactive",
+    "classId": "C9C"
+  },
+  {
+    "id": "S216",
+    "name": "Ira Iyer",
+    "grade": "1",
+    "email": "ira.iyer216@school.edu",
+    "phone": "9862167276",
+    "attendanceRate": 0.8,
+    "status": "inactive",
+    "classId": "C1C"
+  },
+  {
+    "id": "S217",
+    "name": "Myra Reddy",
+    "grade": "5",
+    "email": "myra.reddy217@school.edu",
+    "phone": "9819564320",
+    "attendanceRate": 0.87,
+    "status": "inactive",
+    "classId": "C5C"
+  },
+  {
+    "id": "S218",
+    "name": "Ananya Reddy",
+    "grade": "3",
+    "email": "ananya.reddy218@school.edu",
+    "phone": "9858867279",
+    "attendanceRate": 0.88,
+    "status": "active",
+    "classId": "C3A"
+  },
+  {
+    "id": "S219",
+    "name": "Pari Reddy",
+    "grade": "9",
+    "email": "pari.reddy219@school.edu",
+    "phone": "9876260726",
+    "attendanceRate": 0.94,
+    "status": "inactive",
+    "classId": "C9A"
+  },
+  {
+    "id": "S220",
+    "name": "Ananya Desai",
+    "grade": "12",
+    "email": "ananya.desai220@school.edu",
+    "phone": "9827269790",
+    "attendanceRate": 0.85,
+    "status": "inactive",
+    "classId": "C12A"
+  },
+  {
+    "id": "S221",
+    "name": "Vihaan Chopra",
+    "grade": "5",
+    "email": "vihaan.chopra221@school.edu",
+    "phone": "9848707203",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C5B"
+  },
+  {
+    "id": "S222",
+    "name": "Krishna Nair",
+    "grade": "11",
+    "email": "krishna.nair222@school.edu",
+    "phone": "9866630694",
+    "attendanceRate": 0.87,
+    "status": "active",
+    "classId": "C11C"
+  },
+  {
+    "id": "S223",
+    "name": "Vihaan Mehta",
+    "grade": "4",
+    "email": "vihaan.mehta223@school.edu",
+    "phone": "9851571423",
+    "attendanceRate": 0.82,
+    "status": "inactive",
+    "classId": "C4A"
+  },
+  {
+    "id": "S224",
+    "name": "Ananya Agarwal",
+    "grade": "12",
+    "email": "ananya.agarwal224@school.edu",
+    "phone": "9898855630",
+    "attendanceRate": 0.96,
+    "status": "active",
+    "classId": "C12A"
+  },
+  {
+    "id": "S225",
+    "name": "Vihaan Reddy",
+    "grade": "12",
+    "email": "vihaan.reddy225@school.edu",
+    "phone": "9897577174",
+    "attendanceRate": 0.84,
+    "status": "active",
+    "classId": "C12B"
+  },
+  {
+    "id": "S226",
+    "name": "Navya Chauhan",
+    "grade": "6",
+    "email": "navya.chauhan226@school.edu",
+    "phone": "9835223085",
+    "attendanceRate": 0.84,
+    "status": "inactive",
+    "classId": "C6B"
+  },
+  {
+    "id": "S227",
+    "name": "Riya Nair",
+    "grade": "8",
+    "email": "riya.nair227@school.edu",
+    "phone": "9882894798",
+    "attendanceRate": 0.92,
+    "status": "active",
+    "classId": "C8A"
+  },
+  {
+    "id": "S228",
+    "name": "Ananya Singhania",
+    "grade": "12",
+    "email": "ananya.singhania228@school.edu",
+    "phone": "9825902331",
+    "attendanceRate": 0.83,
+    "status": "active",
+    "classId": "C12B"
+  },
+  {
+    "id": "S229",
+    "name": "Ira Sharma",
+    "grade": "9",
+    "email": "ira.sharma229@school.edu",
+    "phone": "9881320537",
+    "attendanceRate": 0.95,
+    "status": "inactive",
+    "classId": "C9B"
+  },
+  {
+    "id": "S230",
+    "name": "Sai Gupta",
+    "grade": "12",
+    "email": "sai.gupta230@school.edu",
+    "phone": "9862846870",
+    "attendanceRate": 0.91,
+    "status": "active",
+    "classId": "C12A"
+  },
+  {
+    "id": "S231",
+    "name": "Kabir Agarwal",
+    "grade": "10",
+    "email": "kabir.agarwal231@school.edu",
+    "phone": "9857278284",
+    "attendanceRate": 0.91,
+    "status": "inactive",
+    "classId": "C10A"
+  },
+  {
+    "id": "S232",
+    "name": "Myra Sinha",
+    "grade": "8",
+    "email": "myra.sinha232@school.edu",
+    "phone": "9874702433",
+    "attendanceRate": 0.94,
+    "status": "active",
+    "classId": "C8C"
+  },
+  {
+    "id": "S233",
+    "name": "Aarav Bhatia",
+    "grade": "1",
+    "email": "aarav.bhatia233@school.edu",
+    "phone": "9895332062",
+    "attendanceRate": 0.81,
+    "status": "active",
+    "classId": "C1A"
+  },
+  {
+    "id": "S234",
+    "name": "Diya Singhania",
+    "grade": "11",
+    "email": "diya.singhania234@school.edu",
+    "phone": "9856344144",
+    "attendanceRate": 0.8,
+    "status": "inactive",
+    "classId": "C11C"
+  },
+  {
+    "id": "S235",
+    "name": "Anika Khan",
+    "grade": "9",
+    "email": "anika.khan235@school.edu",
+    "phone": "9848156659",
+    "attendanceRate": 0.86,
+    "status": "active",
+    "classId": "C9C"
+  },
+  {
+    "id": "S236",
+    "name": "Sara Sinha",
+    "grade": "10",
+    "email": "sara.sinha236@school.edu",
+    "phone": "9896952031",
+    "attendanceRate": 0.92,
+    "status": "inactive",
+    "classId": "C10B"
+  },
+  {
+    "id": "S237",
+    "name": "Myra Malhotra",
+    "grade": "6",
+    "email": "myra.malhotra237@school.edu",
+    "phone": "9815151835",
+    "attendanceRate": 0.89,
+    "status": "inactive",
+    "classId": "C6B"
+  },
+  {
+    "id": "S238",
+    "name": "Anika Reddy",
+    "grade": "9",
+    "email": "anika.reddy238@school.edu",
+    "phone": "9853139193",
+    "attendanceRate": 0.88,
+    "status": "inactive",
+    "classId": "C9C"
+  },
+  {
+    "id": "S239",
+    "name": "Ira Reddy",
+    "grade": "9",
+    "email": "ira.reddy239@school.edu",
+    "phone": "9824482508",
+    "attendanceRate": 0.99,
+    "status": "active",
+    "classId": "C9A"
+  },
+  {
+    "id": "S240",
+    "name": "Myra Chopra",
+    "grade": "8",
+    "email": "myra.chopra240@school.edu",
+    "phone": "9866682210",
+    "attendanceRate": 0.9,
+    "status": "inactive",
+    "classId": "C8C"
+  },
+  {
+    "id": "S241",
+    "name": "Reyansh Agarwal",
+    "grade": "8",
+    "email": "reyansh.agarwal241@school.edu",
+    "phone": "9817060913",
+    "attendanceRate": 0.85,
+    "status": "active",
+    "classId": "C8C"
+  },
+  {
+    "id": "S242",
+    "name": "Ananya Gill",
+    "grade": "10",
+    "email": "ananya.gill242@school.edu",
+    "phone": "9822060312",
+    "attendanceRate": 0.85,
+    "status": "active",
+    "classId": "C10B"
+  },
+  {
+    "id": "S243",
+    "name": "Aadhya Patel",
+    "grade": "7",
+    "email": "aadhya.patel243@school.edu",
+    "phone": "9816747997",
+    "attendanceRate": 0.98,
+    "status": "active",
+    "classId": "C7A"
+  },
+  {
+    "id": "S244",
+    "name": "Ishaan Nair",
+    "grade": "11",
+    "email": "ishaan.nair244@school.edu",
+    "phone": "9869424675",
+    "attendanceRate": 0.81,
+    "status": "inactive",
+    "classId": "C11A"
+  },
+  {
+    "id": "S245",
+    "name": "Pari Patel",
+    "grade": "3",
+    "email": "pari.patel245@school.edu",
+    "phone": "9843932009",
+    "attendanceRate": 0.95,
+    "status": "inactive",
+    "classId": "C3B"
+  },
+  {
+    "id": "S246",
+    "name": "Riya Desai",
+    "grade": "4",
+    "email": "riya.desai246@school.edu",
+    "phone": "9836905397",
+    "attendanceRate": 0.91,
+    "status": "active",
+    "classId": "C4B"
+  },
+  {
+    "id": "S247",
+    "name": "Ishaan Gupta",
+    "grade": "5",
+    "email": "ishaan.gupta247@school.edu",
+    "phone": "9810362238",
+    "attendanceRate": 0.97,
+    "status": "active",
+    "classId": "C5C"
+  },
+  {
+    "id": "S248",
+    "name": "Kabir Agarwal",
+    "grade": "8",
+    "email": "kabir.agarwal248@school.edu",
+    "phone": "9828725991",
+    "attendanceRate": 0.82,
+    "status": "inactive",
+    "classId": "C8A"
+  },
+  {
+    "id": "S249",
+    "name": "Ishaan Malhotra",
+    "grade": "11",
+    "email": "ishaan.malhotra249@school.edu",
+    "phone": "9829500640",
+    "attendanceRate": 0.85,
+    "status": "active",
+    "classId": "C11C"
+  },
+  {
+    "id": "S250",
+    "name": "Krishna Agarwal",
+    "grade": "1",
+    "email": "krishna.agarwal250@school.edu",
+    "phone": "9893136206",
+    "attendanceRate": 0.99,
+    "status": "active",
+    "classId": "C1B"
+  }
+]
