@@ -1,96 +1,93 @@
-📚 School Admin Panel — SpeakGenie Assignment (React + TypeScript + Tailwind)
-A fully responsive, component-based School Admin Panel built to fulfill the SpeakGenie assignment requirements.
+# SpeakSchool Admin Dashboard
 
-✅ Core Features Implemented
+SpeakSchool Admin Dashboard is a modern, responsive web application built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. It allows school administrators to manage students, monitor performance, and visualize data through charts and leaderboards.
 
-Dashboard with KPIs, charts, and leaderboard
+## Features
 
-Students directory with search, filters, and “Load More” pagination
+- **Student Management**: View and manage student information, attendance, and performance metrics.
+- **Leaderboards**: Track top-performing students based on points, streaks, and accuracy.
+- **Performance Analytics**: Interactive charts for performance monitoring using Recharts.
+- **Responsive Design**: Optimized for desktop and mobile screens.
+- **Custom Components**: Reusable Card, Layout, and Icon components for a clean UI.
 
-Mock API powered by local JSON files with async simulation
+## Tech Stack
 
-State management via Zustand (persisted to localStorage)
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **State Management**: Redux (if used, can mention here)
 
-Charts & analytics using Recharts
+## Installation
 
-Responsive design using Tailwind CSS utility classes
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/SpeakSchool-Admin.git
+   cd SpeakSchool-Admin
+   Install dependencies
+   ```
 
-Reusable components for cards, tables, buttons, and layout
-
-🚀 Quickstart
 bash
 Copy
 Edit
-# 1) Make sure you are using Node 18+
-node -v
-
-# 2) Install dependencies
 npm install
-
-# 3) Run the development server
-npm run dev
-# Open http://localhost:5174 in your browser
-Build for production:
+Start the development server
 
 bash
 Copy
 Edit
-npm run build
-npm run preview
-📂 Project Structure
+npm run dev
+Open your browser and navigate to http://localhost:5173 (or the URL shown in the terminal).
+
+Project Structure
 graphql
 Copy
 Edit
-speakgenie-school-admin
-├── src
-│   ├── components      # Layout, Icons, reusable UI elements
-│   ├── data            # Mock JSON data (students, classes, attendance, leaderboard)
-│   ├── lib             # Fake API wrappers
-│   ├── pages           # Dashboard, Students, Reports (Analytics), Settings
-│   ├── store.ts        # Zustand store for global state
-│   ├── theme.ts        # Theme tokens for easy customization
-│   ├── App.tsx, main.tsx, index.css
-├── public
-├── package.json
-├── tailwind.config.ts
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
-📊 Screens Overview
-Dashboard
-KPIs: Total Students, Total Classes, Avg. Performance, Top Performer
+SpeakSchool-Admin/
+├─ src/
+│ ├─ components/ # Reusable UI components
+│ ├─ pages/ # Dashboard and student pages
+│ ├─ store.ts # Redux store (if applicable)
+│ ├─ types.ts # TypeScript interfaces and types
+│ └─ App.tsx # Main application entry
+├─ index.html
+├─ package.json
+├─ tailwind.config.ts
+└─ vite.config.ts
+Usage
+Navigate to Dashboard to view performance charts and top students.
 
-Class-wise student count (Bar chart)
+Use Student Management page to see detailed student data, attendance, and progress.
 
-Performance distribution (Pie chart)
+Export or download student reports (if implemented) for offline review.
 
-School leaderboard (Top 10)
+Customization
+Tailwind theme customization is available in src/theme.ts.
 
-All Students section with search, filter by class, and Load More pagination
+Components like Card and Layout can be reused for other pages.
 
-Students
-List of all students with search and filter
+Add new pages by creating a .tsx file in src/pages and updating App.tsx routes.
 
-Paginated view for large datasets
+Contributing
+Contributions are welcome! Please follow these steps:
 
-Analytics (Reports)
-Placeholder page (can be replaced with PDF-specified analytics)
+Fork the repository
 
-Settings
-School info and theme settings (demo only)
+Create a new branch (git checkout -b feature-name)
 
-🎨 Theming
-To match the PDF design once received:
+Make your changes
 
-Update src/theme.ts for brand colors, typography, and spacing tokens.
+Commit (git commit -m "Add new feature")
 
-Update tailwind.config.ts for global Tailwind theme settings.
+Push (git push origin feature-name)
 
-📌 Notes for Submission
-All routes are implemented with React Router and the sidebar navigation is functional.
+Open a Pull Request
 
-Mock data is in /src/data for easy testing and review.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-“Load More Students” button dynamically calculates remaining students.
+Screenshots
+Add screenshots of the dashboard here to give users a preview.
 
-Code is component-driven, following React best practices.
+Contact
+For questions or support, contact [Vishal Dwivedy] at Vishaldwidy@gmail.com.
